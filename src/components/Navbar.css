@@ -1,0 +1,84 @@
+
+.navbar {
+  position: sticky;
+  top: 0; /* altijd bovenaan */
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #264653;
+  color: #E76F51;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000; /* boven content */
+}
+
+/* Voeg dit toe: maak navbar relatief, zodat het menu zich hierop positioneert */
+.navbar {
+  position: sticky;
+  top: 0;
+  position: relative; /* extra position relative */
+}
+
+/* Dropdown menu stijl */
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+
+  position: absolute;  /* uit normale flow */
+  top: 100%;           /* net onder navbar */
+  left: 0;
+  background-color: #222;
+  width: 200px;        /* pas aan naar wens */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1100;       /* hoger dan navbar */
+}
+
+/* Open dropdown */
+.navbar-menu.open {
+  display: flex;
+}
+
+/* Menu items */
+.navbar-menu li {
+  margin: 0;
+  border-bottom: 1px solid #444;
+}
+
+.navbar-menu a {
+  color: white;
+  padding: 0.75rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover {
+  background-color: #444;
+}
+
+/* Tablet en groter: horizontale menu en normale flow */
+@media (min-width: 600px) {
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-menu {
+    position: static; /* zet absolute uit */
+    display: flex !important;
+    flex-direction: row;
+    width: auto;
+    box-shadow: none;
+  }
+
+  .navbar-menu li {
+    margin: 0 1rem;
+    border: none;
+  }
+
+  .navbar-menu a {
+    padding: 0;
+  }
+}

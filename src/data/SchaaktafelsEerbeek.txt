@@ -1,0 +1,855 @@
+var tafel1 = L.marker([52.081975, 5.017854]).addTo(mymap)
+		.bindPopup("<b>#1 OBS Pantarijn/Shri Krishna School, Utrecht</b><br />Schaaktafel / Chess table (2x)<br>Van Lawick van Pabstlaan 1<br>3453 PH  Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel1.jpg\" width=\"100%\"><br><br>52.081975, 5.017854<br><i>(est. 15 Feb 2018)</i>");
+
+		var tafel2 = L.marker([52.09559, 5.02326]).addTo(mymap)
+		.bindPopup("<b>#2 Maximapark, Utrecht <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (7x)<br>Nabij ingang Japanse Tuin<br><i>Near entrance Japanese Garden</i><br>Uilenboslaan 1<br> 3451 GB Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel2.jpg\" width=\"100%\"><br><br>52.09559, 5.02326<br><i>(est. 10 Mar 2018)</i>");
+
+		var tafel3 = L.marker([51.90833, 4.48152]).addTo(mymap)
+		.bindPopup("<b>#3 Willemskade, Rotterdam</b><br />Schaaktafel / Chess table<br>Nabij Erasmusbrug<br><i>Near Erasmus Bridge</i><br>Willemskade 19<br> 3016 DM Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel3.jpg\" width=\"100%\"><br><br>51.90833, 4.48152<br><i>(est. unknown)</i>");
+
+		var tafel4 = L.marker([52.254941, 5.379141 ]).addTo(mymap)
+		.bindPopup("<b>#4 Havenstraat</b><br />Schaaktafel / Chess table (2x)<br>Havenstraat 43, <br> 3752 TH Bunschoten-Spakenburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bunschot.png\" width=\"100%\"><br><br>52.254941, 5.379141 <br><i>(est. 6 Mar 2023)</i>");
+		
+
+		var tafel5 = L.marker([52.21424, 6.00347]).addTo(mymap)
+		.bindPopup("<b>#5 Vlindertuin, Apeldoorn</b><br />Schaaktafel / Chess table<br>Ravelijn 2<br>7325 NW Apeldoorn<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel5.png\" width=\"100%\"><br><br>52.21424, 6.00347<br><i>(est. 07 Jun 2018)</i>");
+
+		var tafel6 = L.marker([53.47855, 6.16181]).addTo(mymap)
+		.bindPopup("<b>#6 Willemshof, Schiermonnikoog</b><br />Schaaktafel / Chess table (2x)<br>Nieuwestreek 7<br>9166 LX Schiermonnikoog<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel6.jpg\" width=\"100%\"><br><br>53.47855, 6.16181<br><i>(est. 13 Oct 2018)</i>");
+
+		var tafel7 = L.marker([53.47749, 6.16438]).addTo(mymap)
+		.bindPopup("<b>#7 Yn de Mande school, Schiermonnikoog</b><br />Schaaktafel / Chess table (2x) <br>F.H. Gasaustraat 22<br>9166 RB Schiermonnikoog<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schierschool.png\" width=\"100%\"><br><br>53.47749, 6.16438<br><i>(est. 13 Oct 2018)</i>");
+
+		var tafel8 = L.marker([52.085096, 5.174268]).addTo(mymap)
+		.bindPopup("<b>#8 Science Park - Heidelberglaan, Utrecht</b><br />Schaaktafel / Chess table (4x)<br> Heidelberglaan 6<br>3584 CS Utrecht <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/science.png\" width=\"100%\"><br><br>52.085096, 5.174268<br><i>(est. 2022)</i>");
+
+		var tafel9 = L.marker([52.35529, 4.92402]).addTo(mymap)
+		.bindPopup("<b>#9 Steve Bikoplein, Amsterdam</b><br />Schaaktafel / Chess table (3x)<br>Steve Bikoplein<br>1092 GM Amsterdam <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel9.jpg\" width=\"100%\"><br><br>52.35529, 4.92402<br><i>(est. 01 Jan 2019)</i>");
+
+		var tafel10 = L.marker([52.3287, 4.8754]).addTo(mymap)
+		.bindPopup("<b>#10 Gijsbrecht van Aemstelpark, Amsterdam</b><br />Schaaktafel / Chess table (2x)<br>Willem van Weldammelaan<br>1082 KW Amsterdam  <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel10.jpg\" width=\"100%\"><br><br>52.3287, 4.8754<br><i>(est. 01 Dec 2018)</i>");
+
+		var tafel11 = L.marker([51.82507, 4.97284]).addTo(mymap)
+		.bindPopup("<b>#11 Buiten de Waterpoort, Gorinchem</b><br />Schaaktafel / Chess table (2x)<br>Buiten de Waterpoort<br>4201 AS Gorinchem  <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel11.jpg\" width=\"100%\"><br><br>51.82507, 4.97284<br><i>(est. 23 May 2018)</i>");
+
+		var tafel12 = L.marker([51.96349, 6.28622]).addTo(mymap)
+		.bindPopup("<b>#12 De Bleek, Doetinchem</b><br />Schaaktafel / Chess table<br>Wijnbergseweg<br>7006 AJ Doetinchem  <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel12.jpg\" width=\"100%\"><br><br>51.96349, 6.28622<br><i>(est. 08 Jul 2018)</i>");
+
+		var tafel13 = L.marker([51.96466, 6.29196]).addTo(mymap)
+		.bindPopup("<b>#13 Nieuwstad, Doetinchem</b><br />Schaaktafel / Chess table<br>Nieuwstad 15<br>7001 AC Doetinchem <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel13.jpg\" width=\"100%\"><br><br>51.96466, 6.29196<br><i>(est. 08 Jul 2018)</i>");
+
+		var tafel14 = L.marker([52.95794, 4.76014]).addTo(mymap)
+		.bindPopup("<b>#14 Julianaplein, Den Helder</b><br />Schaaktafel / Chess table (2x)<br>Julianaplein,<br>1781 HC Den Helder <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel14.jpg\" width=\"100%\"><br><br>52.95794, 4.76014<br><i>(est. 18 Apr 2019)</i>");
+
+		var tafel15 = L.marker([52.61875, 4.74034]).addTo(mymap)
+		.bindPopup("<b>#15 RK Basisschool Kardinaal De Jong, Alkmaar</b><br />Schaaktafel / Chess table<br>Amalia van Solmsstraat 91<br>1814 NE Alkmaar<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel15.jpg\" width=\"100%\"><br><br>52.61875, 4.74034<br><i>(est. 24 Apr 2019)</i>");
+
+		var tafel16 = L.marker([51.8212, 4.65209]).addTo(mymap)
+		.bindPopup("<b>#16 Speelplek Groene Kruispad, Zwijndrecht</b><br />Schaaktafel / Chess table<br>Groene Kruispad<br>3332 BC Zwijndrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel16.png\" width=\"100%\"><br><br>51.8212, 4.65209<br><i>(est. 24 Apr 2019)</i>");
+
+		var tafel17 = L.marker([53.221748, 6.568669]).addTo(mymap)
+		.bindPopup("<b>#17 Prinsentuin</b><br />Schaaktafel / Chess table (1x)<br>Prinsentuin <br>9711 VV Groningen,<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafelpr.png\" width=\"100%\"><br><br>53.221748, 6.568669<br><i>(est. Apr 2020)</i>");
+
+		var tafel18 = L.marker([52.3037, 4.85801]).addTo(mymap)
+		.bindPopup("<b>#18 Cobra museum, Amstelveen</b><br />Schaaktafel / Chess table<br>Sandbergplein 1,  <br>1181 ZX Amstelveen, ,<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel18.png\" width=\"100%\"><br><br>52.3037, 4.85801<br><i>(est. 17 Nov 2016)</i>");
+
+		var tafel19 = L.marker([52.10191, 5.10939]).addTo(mymap)
+		.bindPopup("<b>#19 Noordse Park, Utrecht</b><br />Schaaktafel / Chess table<br>Engelen van Pijlsweertstraat  <br>3513 GD Utrecht , ,<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel19.png\" width=\"100%\"><br><br>52.10191, 5.10939<br><i>(est. 2012)</i>");
+
+		var tafel20 = L.marker([53.410775, 6.196467]).addTo(mymap)
+		.bindPopup("<b>#20 Veerboot/Ferry Lauwersoog-Schiermonnikoog</b><br />Schaaktafel / Chess table (4x)<br>Zeedijk 7  <br>9976 VM Lauwersoog<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel20.jpg\" width=\"100%\"><br><br>53.410775, 6.196467<br><i>(est. June 2019)</i>");
+
+
+		var tafel21 = L.marker([52.803369, 4.999854]).addTo(mymap)
+		.bindPopup("<b>#21 Sport en recreatieveld The Movement</b><br />Schaaktafel / Chess table<br>Alkmaarseweg <br>1775 HC Middenmeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel21.jpg\" width=\"100%\"><br><br>52.803369, 4.999854<br><i>(est. July 2019)</i>");
+
+		var tafel22 = L.marker([52.343577, 4.824785]).addTo(mymap)
+		.bindPopup("<b>#22 Park Haagseweg - Sloter-/Riekerpolder</b><br />Schaaktafel / Chess table<br>John Coltranestraat<br>1066 GP Amsterdam <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel22.jpg\" width=\"100%\"><br><br>52.343577, 4.824785<br><i>(est. Oct 17, 2019)</i>");
+
+
+		var tafel23 = L.marker([53.248859, 6.600483]).addTo(mymap)
+		.bindPopup("<b>#23 Plein Oost Beijum</b><br />Schaaktafel / Chess table<br>Beijum-Oost<br>9736 LA Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel24.png\" width=\"100%\"><br><br>53.248859, 6.600483<br><i>(est. Sept 29, 2019)</i>");
+
+		var tafel24 = L.marker([52.15728, 6.30158]).addTo(mymap)
+		.bindPopup("<b>#24 Dorpsplein Almem</b><br />Schaaktafel / Chess table (2x)<br>Dorpsstraat<br>7218 AC Almen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel25.jpg\" width=\"100%\"><br><br>52.15728, 6.30158<br><i>(est. Sept 29, 2018)</i>");
+
+		var tafel25 = L.marker([51.941879, 5.865450]).addTo(mymap)
+		.bindPopup("<b>#25 Rijkerswoerdse Plassen</b><br />Schaaktafel / Chess table (4x)<br>Rijkerswoerdsestraat 4<br>6661 NT Elst (Gld)<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel26.jpg\" width=\"100%\"><br><br>51.941879, 5.865450<br><i>(est. Apr 25, 2017)</i>");
+
+		var tafel26 = L.marker([51.557817, 5.083502]).addTo(mymap)
+		.bindPopup("<b>#26 Harmonie Park</b><br />Schaaktafel / Chess table<br>Langestraat 13<br>5038 SB Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafel27.png\" width=\"100%\"><br><br>51.557817, 5.083502<br><i>(est. Jan 25, 2020)</i>");
+
+		var tafel27 = L.marker([51.993034, 4.207916]).addTo(mymap)
+		.bindPopup("<b>#27 Wilhelminaplein</b><br />Schaakdamtafel / Chess + Draughts/Checkers table<br>Kerkstraat<br>2671 HC Naaldwijk<br>[<a href=\"https://www.westlandschaakt.nl/index.php/buitenschaak\" target=_blank>Info website]<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaknaaldwijk.jpg\" width=\"100%\"></a><br><br>51.993034, 4.207916<br><i>(est. Mar 21, 2020)</i>");
+		
+		var tafel28 = L.marker([52.352352, 4.623929]).addTo(mymap)
+		.bindPopup("<b>#28 Plein1</b><br />Schaaktafel / Chess table (2x)<br>Julianaplein 1<br>2101 ZC Heemstede<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaakheemstede.jpg\" width=\"100%\"></a><br><br>52.352352, 4.623929<br><i>(est. Jun 27, 2020)</i>");
+		
+		var tafel29 = L.marker([52.373890, 4.914420]).addTo(mymap)
+		.bindPopup("<b>#29 Concretely Circular, AMS Institute</b><br />Schaaktafel / Chess table<br>Kattenburgerstraat 5<br>1018 JA Amsterdam<br>[<a href=\"https://www.delta.tudelft.nl/article/recycled-concrete-returns-outdoor-furniture\" target=_blank>Info website]<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/concrete.jpg\" width=\"100%\"></a><br><br>52.373890, 4.914420<br><i>(est. Jun 26, 2019)</i>");
+
+		var tafel30 = L.marker([52.019436, 5.047281]).addTo(mymap)
+		.bindPopup("<b>#30 Kloosterplantsoen</b><br />Schaaktafel / Chess table (3x)<br>Anna van Burenstraat 31<br>3401 XP IJsselstein<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaakijssel.jpg\" width=\"100%\"></a><br><br>52.019436, 5.047281<br><i>(est. Sep 13, 2020)</i>");
+
+		var tafel31 = L.marker([51.451471, 5.456813]).addTo(mymap)
+		.bindPopup("<b>#31 Cruyff Court Woensel-West</b><br />Schaaktafel / Chess table (2x)<br>Groenewoudseweg 311<br>5621 BL Eindhoven<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/eindhoven.jpg\" width=\"100%\"></a><br><br>51.451471, 5.456813<br><i>(est. Sep 22, 2020)</i>");
+		
+		var tafel32 = L.marker([51.782836, 4.682314]).addTo(mymap)
+		.bindPopup("<b>#32 Sterrenburgpark</b><br />Schaaktafel / Chess table (2x)<br>De Jagersweg 1A<br>3328 HE Dordrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dordt.jpg\" width=\"100%\"></a><br><br>51.782836, 4.682314<br><i>(est. Nov 10, 2020)</i>");
+
+		var tafel33 = L.marker([53.185903, 6.561733]).addTo(mymap)
+		.bindPopup("<b>#33 Corpus Den Hoorn-Zuid</b><br />Schaaktafel / Chess table (1x)<br>A.Morostraat 62<br>9728 SP Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/gron3.jpg\" width=\"100%\"></a><br><br>53.185903, 6.561733<br><i>(est. Sep  2019)</i>");
+		
+		var tafel34 = L.marker([51.561808, 5.068927]).addTo(mymap)
+		.bindPopup("<b>#34 T-Huis</b><br />Schaaktafel / Chess table (3x)<br>Spoorpark 12<br>5038 TS Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/tilb3.png\" width=\"100%\"></a><br><br>51.561808, 5.068927<br><i>(est. Apr  2020)</i>");
+		
+		var tafel35 = L.marker([53.206893, 6.555614]).addTo(mymap)
+		.bindPopup("<b>#35 Noorderpoort College</b><br />Schaaktafel / Chess table (1x)<br>Verzetsstrijderslaan 2<br>9727 CE Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafelnp.png\" width=\"100%\"></a><br><br>53.206893, 6.555614<br><i>(est. Apr  2020)</i>");	
+		
+		var tafel36 = L.marker([52.209778, 5.021737]).addTo(mymap)
+		.bindPopup("<b>#36 Loenen a/d Vecht</b><br />Schaaktafel / Chess table (2x)<br>Rijksstraatweg 119<br>3632 AB Loenen aan de Vecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafellv.png\" width=\"100%\"></a><br><br>52.209778, 5.021737<br><i>(est. Dec  2020)</i>");
+	
+		var tafel37 = L.marker([52.085576, 6.449834]).addTo(mymap)
+		.bindPopup("<b>#37 De Olde Banke</b><br />Schaaktafel / Chess table (2x)<br>Dorpsstraat 5<br>7261 AT Ruurlo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schaaktafelruu.png\" width=\"100%\"></a><br><br>52.085576, 6.449834<br><i>(est. Apr  2020)</i>");	
+		
+		var tafel38 = L.marker([52.075716, 4.314727]).addTo(mymap)
+		.bindPopup("<b>#38 Rabbijn Maarseplein</b><br />Schaaktafel / Chess table (3x)<br>Rabbijn Maarsenplein 19<br>2512 HJ Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/denhaag1.jpg\" width=\"100%\"></a><br><br>52.075716, 4.314727<br><i>(est. Mar  2021)</i>");	
+		
+		var tafel39 = L.marker([51.802892, 4.716818]).addTo(mymap)
+		.bindPopup("<b>#39 van Eesterenplein</b><br />Schaaktafel / Chess table (1x)<br>Van Eesterenplein 134<br>3315 KV Dordrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dordrecht1.jpg\" width=\"100%\"></a><br><br>51.802892, 4.716818<br><i>(est. Mar  2021)</i>");
+		
+		var tafel40 = L.marker([52.390108, 4.938685]).addTo(mymap)
+		.bindPopup("<b>#40 Beeldenbos Noord</b><br />Schaaktafel / Chess table<br>Beeldenbos Noord<br>1023 BV Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amsterdamnoord.jpg\" width=\"100%\"></a><br><br>52.390108, 4.938685<br><i>(est. Mar  2021)</i>");
+		
+		var tafel41 = L.marker([52.350230, 4.974140]).addTo(mymap)
+		.bindPopup("<b>#41 Rietgors, Diemen</b><br />Schaaktafel / Chess table<br>Rietgors 11<br>1111 VP Diemen (Noord)<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/diemen.png\" width=\"100%\"></a><br><br>52.350230, 4.974140<br><i>(est. Apr  2021)</i>");
+		
+		var tafel42 = L.marker([52.139107, 5.582944]).addTo(mymap)
+		.bindPopup("<b>#42 Rozentuin</b><br />Schaaktafel / Chess table<br>Torenplein 37<br>3772 CX Barneveld<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/barneveld.png\" width=\"100%\"></a><br><br>52.139107, 5.582944<br><i>(est. Apr  2021)</i>");
+		
+		var tafel43 = L.marker([51.982932, 5.912010]).addTo(mymap)
+		.bindPopup("<b>#43 Arnhem Centrum -1</b><br />Schaaktafel / Chess table<br>Johnny van Doornplein 12<br>6811 BJ Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/arnhem1.png\" width=\"100%\"></a><br><br>51.982932, 5.912010<br><i>(est. Jun 2017)</i>");
+		
+		var tafel44 = L.marker([51.983616, 5.908201]).addTo(mymap)
+		.bindPopup("<b>#44 Arnhem Centrum -2</b><br />Schaaktafel / Chess table<br>Gele Rijdersplein 21<br>6811 AP Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/arnhem2.png\" width=\"100%\"></a><br><br>51.983616, 5.908201<br><i>(est. Jun 2017)</i>");
+		
+		var tafel45 = L.marker([52.134687, 4.678492]).addTo(mymap)
+		.bindPopup("<b>#45 Zegerplas</b><br />Schaaktafel / Chess table (5x)<br>Sportlaan 5<br>2406 LD Alphen aan de Rijn<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/alphen2.png\" width=\"100%\"></a><br><br>52.134687, 4.678492<br><i>(est. May 2021)</i>");
+		
+		var tafel46 = L.marker([52.353716, 4.916880]).addTo(mymap)
+		.bindPopup("<b>#46 Albert Wittenbergplein</b><br />Schaaktafel / Chess table (2x)<br>Damtafel / Draughts table (1x)<br>Joubertstraat 16<br>1091 XP Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amscourt.png\" width=\"100%\"></a><br><br>52.353716, 4.916880<br><i>(est. May 2021)</i>");
+		
+		var tafel47 = L.marker([51.925034, 4.593174]).addTo(mymap)
+		.bindPopup("<b>#47 Vuykterrein</b><br />Schaaktafel / Chess table (2x)<br>Damtafel / Draughts table (1x)<br>Vuykpark1<br>2903 LP Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/capelle1.png\" width=\"100%\"></a><br><br>51.925034, 4.593174<br><i>(est. May 2021)</i>");
+		
+		var tafel48 = L.marker([52.145565, 4.493114]).addTo(mymap)
+		.bindPopup("<b>#48 Betaplein</b><br />Schaaktafel / Chess table (2x)<br>Betaplein 245<br>2321 KS Leiden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/leiden1.png\" width=\"100%\"></a><br><br>52.145565, 4.493114<br><i>(est. May 2021)</i>");
+		
+		var tafel49 = L.marker([51.640933, 4.858179]).addTo(mymap)
+		.bindPopup("<b>#49 Slotpark</b><br />Schaaktafel / Chess table (3x)<br>Slotlaan<br>4902 AC Oosterhout<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/oosterhout.png\" width=\"100%\"></a><br><br>51.640933, 4.858179<br><i>(est. May 2021)</i>");	
+	
+		var tafel50 = L.marker([51.923256, 4.492809]).addTo(mymap)
+		.bindPopup("<b>#50 Achterkloosterpark</b><br />Schaaktafel / Chess table (1x)<br>Achterklooster 7<br>3011 RA Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/rdam1.png\" width=\"100%\"></a><br><br>51.923256, 4.492809<br><i>(est. unknown)</i>");
+		
+		var tafel51 = L.marker([52.089673, 5.116727]).addTo(mymap)
+		.bindPopup("<b>#51 Pandhof Sinte Marie</b><br />Schaaktafel / Chess table (2x)<br>Lange Elisabethstraat Mariaplaats<br>3511 LL Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/utrecht.jpg\" width=\"100%\"></a><br><br>52.089673, 5.116727<br><i>(est. unknown)</i>");	
+		
+		var tafel52 = L.marker([52.225483, 4.524776]).addTo(mymap)
+		.bindPopup("<b>#52 Park Rusthoff</b><br />Schaaktafel / Chess table (2x)<br>Parklaan<br>Sassenheim<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/sassen.png\" width=\"100%\"></a><br><br>52.225483, 4.524776<br><i>(est. Jun 2021)</i>");	
+		
+		var tafel53 = L.marker([51.587021, 5.136505]).addTo(mymap)
+		.bindPopup("<b>#53 Koningsoord</b><br />Schaaktafel / Chess table (2x)<br>Koningsoord 70<br>5057 DK Berkel-Enschot<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/berkele.png\" width=\"100%\"></a><br><br>51.587021, 5.136505<br><i>(est. Jun 2021)</i>");
+		
+		var tafel54 = L.marker([52.994978, 6.560687]).addTo(mymap)
+		.bindPopup("<b>#54 Koopmansplein</b><br />Schaaktafel / Chess table (2x)<br>Koopmansplein<br>9401 ET Assen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/assen.png\" width=\"100%\"></a><br><br>52.994978, 6.560687<br><i>(est. Jul 2021)</i>");
+		
+		var tafel55 = L.marker([52.384569, 4.884369]).addTo(mymap)
+		.bindPopup("<b>#55 Haarlemmerplein</b><br />Schaaktafel / Chess table (2x)<br>Haarlemmerplein 10<br>1013 HS Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amshlm.png\" width=\"100%\"></a><br><br>52.384569, 4.884369<br><i>(est. Jul 2021)</i>");
+		
+		L.marker([51.025879, 4.479328]).addTo(mymap)
+		.bindPopup("<b>Sinte-Mettetuin</b><br />Schaaktafel / Chess table (2x)<br>Schaalstraat<br>2800 Mechelen (België)<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/mech.png\" width=\"100%\"></a><br><br>51.025879, 4.479328<br><i>(est. Aug 2021)</i>");
+		
+		var tafel56 = L.marker([51.819178, 5.860701]).addTo(mymap)
+		.bindPopup("<b>#56 Spinozagebouw parkterras</b><br />Schaaktafel / Chess table <br>Montessorilaan 3<br>6525 HR Nijmegen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/spinoza.png\" width=\"100%\"></a><br><br>51.819178, 5.860701<br><i>(est. May 2022)</i>");
+	
+		var tafel57 = L.marker([51.570639, 5.090463]).addTo(mymap)
+		.bindPopup("<b>#57 Basisschool de Cocon</b><br />Schaaktafel / Chess table <br>Hoefstraat 173<br>5014 NK Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cocon.png\" width=\"100%\"></a><br><br>51.570639, 5.090463<br><i>(est. Dec 2020)</i>");
+	
+		var tafel58 = L.marker([52.082197, 5.030973]).addTo(mymap)
+		.bindPopup("<b>#58 Dienstencetrum De Roef <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table <br>Touwslagerslaan 3<br>3454 GV De Meern <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/demeern.png\" width=\"100%\"></a><br><br>52.082197, 5.030973<br><i>(est. 25 Sep 2021)</i>");	
+		
+		var tafel59 = L.marker([51.917899, 4.382518]).addTo(mymap)
+		.bindPopup("<b>#59 Dr. Wibautplein</b><br />Schaaktafel / Chess table (3x) <br>Dr. Wibautplein 91<br>3118 KB Schiedam <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schied.png\" width=\"100%\"></a><br><br>51.917899, 4.382518<br><i>(est. 12 Oct 2021)</i>");
+		
+		
+		var tafel60 = L.marker([51.916999, 4.348865]).addTo(mymap)
+		.bindPopup("<b>#60 Burg. de Bordesplein</b><br />Schaaktafel / Chess table (1x) <br>Burg. de Bordesplein 18A<br>3135 HE Vlaardingen <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vlaard.png\" width=\"100%\"></a><br><br>51.916999, 4.348865<br><i>(est. 20 Oct 2021)</i>");
+		
+		var tafel61 = L.marker([52.176170, 4.996118]).addTo(mymap)
+		.bindPopup("<b>#61 't Heycop</b><br />Schaaktafel / Chess table (1x) <br>Speeltuin Jeu de Boulesbaan, de Aa<br>3621 WB Breukelen <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/breuk1.png\" width=\"100%\"></a><br><br>52.176170, 4.996118<br><i>(est. 04 Nov 2021)</i>");
+		
+		var tafel62 = L.marker([52.172051, 5.003489]).addTo(mymap)
+		.bindPopup("<b>#62 de Kerkbrink</b><br />Schaaktafel / Chess table (1x) <br>Kerkbrink 35<br>3621 AN Breukelen <br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/breuk1.png\" width=\"100%\"></a><br><br>52.172051, 5.003489<br><i>(est. 04 Nov 2021)</i>");
+		
+		var tafel63 = L.marker([52.359789, 4.899241]).addTo(mymap)
+		.bindPopup("<b>#63 Prins Frederiksplein</b><br />Schaaktafel / Chess table (2x) <br>De Weteringschans<br>1017 XN Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/fred.png\" width=\"100%\"></a><br><br>52.359789, 4.899241<br><i>(est. Oct 2021)</i>");	
+		
+		var tafel64 = L.marker([52.376195, 4.634580]).addTo(mymap)
+		.bindPopup("<b>#64 Voormalig Sint Elisabeth Gasthuis</b><br />Schaaktafel / Chess table (1x) <br>Gasthuisvest 47<br>2011 EV Haarlem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/haarlemgh.png\" width=\"100%\"></a><br><br>52.376195, 4.634580<br><i>(est.  1973)</i>");	
+		
+		var tafel65 = L.marker([51.917999, 4.568836]).addTo(mymap)
+		.bindPopup("<b>#65 Speeltuin Bellinistraat <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x) <br>Bellinistraat 96<br>2901 KA Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplA.png\" width=\"100%\"></a><br><br>51.917999, 4.568836<br><i>(est. 2021)</i>");
+		
+		var tafel66 = L.marker([51.942780, 4.588282]).addTo(mymap)
+		.bindPopup("<b>#66 Stadsdeelpark</b><br />Schaaktafel / Chess table (3x) <br>Bermweg 133<br>2907 LD Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplB.png\" width=\"100%\"></a><br><br>51.942780, 4.588282<br><i>(est. 2021)</i>");	
+			
+		var tafel67 = L.marker([51.914770, 4.567427]).addTo(mymap)
+		.bindPopup("<b>#67 IJsbaan Capelle West</b><br />Schaaktafel / Chess table (3x) <br>Cornelis de Houtmanstraat 45<br>2901 AD Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplC.png\" width=\"100%\"></a><br><br>51.914770, 4.567427<br><i>(est. 2021)</i>");	
+		
+		var tafel68 = L.marker([51.934062, 4.598884]).addTo(mymap)
+		.bindPopup("<b>#68 De Baronie</b><br />Schaaktafel / Chess table (3x) <br>De Baronie 109<br>2904 XD Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplD.png\" width=\"100%\"></a><br><br>51.934062, 4.598884<br><i>(est. 2021)</i>");	
+		
+		var tafel69 = L.marker([51.935429, 4.575126]).addTo(mymap)
+		.bindPopup("<b>#69 Groen van Prinstererschool</b><br />Schaaktafel / Chess table (3x) <br>Ericaplein 11<br>2906 CG Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplE.png\" width=\"100%\"></a><br><br>51.935429, 4.575126<br><i>(est. 2021)</i>");
+		
+		var tafel70 = L.marker([51.916067, 4.540268]).addTo(mymap)
+		.bindPopup("<b>#70 Fascinatio Boulevard</b><br />Schaaktafel / Chess table (3x) <br>Fascinatio Boulevard 494<br>2909 RC Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplF.png\" width=\"100%\"></a><br><br>51.916067, 4.540268<br><i>(est. 2021)</i>");
+		
+		var tafel71 = L.marker([51.926913, 4.605918]).addTo(mymap)
+		.bindPopup("<b>#71 Tennispark t Hooghe Dorp</b><br />Schaaktafel / Chess table (3x) <br>Groenedijk 48<br>2904 LB Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplG.png\" width=\"100%\"></a><br><br>51.926913, 4.605918<br><i>(est. 2021)</i>");
+		
+		var tafel72 = L.marker([51.950902, 4.593027]).addTo(mymap)
+		.bindPopup("<b>#72 de Sjalomschool</b><br />Schaaktafel / Chess table (3x) <br>Louvre 1<br>2907 WD Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplH.png\" width=\"100%\"></a><br><br>51.950902, 4.593027<br><i>(est. 2021)</i>");
+		
+		var tafel73 = L.marker([51.923218, 4.580897]).addTo(mymap)
+		.bindPopup("<b>#73 Rozenburcht <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x) <br>van Polanenlaan 17<br>2902 BX Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplI.png\" width=\"100%\"></a><br><br>51.923218, 4.580897<br><i>(est. 2021)</i>");
+		
+		var tafel74 = L.marker([51.935032, 4.592527]).addTo(mymap)
+		.bindPopup("<b>#74 Hovenbuurt</b><br />Schaaktafel / Chess table (3x) <br>Wiekslag 142<br>2903 VD Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplJ.png\" width=\"100%\"></a><br><br>51.935032, 4.592527<br><i>(est. 2021)</i>");
+	
+		var tafel75 = L.marker([51.913512, 4.565663]).addTo(mymap)
+		.bindPopup("<b>#75 Zeeheldenbuurt</b><br />Schaaktafel / Chess table (3x) <br>Willem Barentszstraat 3<br>2901 BG Capelle aan de Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cplK.png\" width=\"100%\"></a><br><br>51.913512, 4.565663<br><i>(est. 2021)</i>");
+
+		var tafel76 = L.marker([51.558593, 5.076359]).addTo(mymap)
+		.bindPopup("<b>#76 Kloostertuin Marietje Kessels Monument</b><br />Schaaktafel / Chess table (1x) <br>Dionysiusstraat<br>5038 GS Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/til5.png\" width=\"100%\"></a><br><br>51.558593, 5.076359<br><i>(est. Jul 2021)</i>");
+		
+		var tafel77 = L.marker([51.849937, 4.324642]).addTo(mymap)
+		.bindPopup("<b>#77 Markt</b><br />Schaaktafel / Chess table (2x) <br>Markt 40<br>3201 CZ Spijkenisse<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/spijk.png\" width=\"100%\"></a><br><br>51.849937, 4.324642<br><i>(est. 17 Jan 2022)</i>");
+		
+		
+		var tafel78 = L.marker([51.919010, 4.996081]).addTo(mymap)
+		.bindPopup("<b>#78 CBS De Rank <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x) <br>Blommendaal 6<br>4231 DC Meerkerk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/meerk.png\" width=\"100%\"></a><br><br>51.919010, 4.996081<br><i>(est. 17 Jan 2022)</i>");	
+	
+		var tafel79 = L.marker([52.209722, 5.292000]).addTo(mymap)
+		.bindPopup("<b>#79 Pekingtuin</b><br />Schaaktafel / Chess table (3x) <br>achter Javalaan 1-3<br>3743 EM Baarn<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/baarn.png\" width=\"100%\"></a><br><br>52.209722, 5.292000<br><i>(est. 2021)</i>");	
+		
+		var tafel80 = L.marker([52.012969, 4.588625]).addTo(mymap)
+		.bindPopup("<b>#80 Parkje achter Leliestraat</b><br />Schaaktafel / Chess table (1x) <br>Leliestraat 48<br>2761 HE Zevenhuizen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zevenh.png\" width=\"100%\"></a><br><br>52.012969, 4.588625<br><i>(est. 2019)</i>");	
+		
+		var tafel81 = L.marker([52.604814, 4.711516]).addTo(mymap)
+		.bindPopup("<b>#81 Winkelcentrum 't Loo</b><br />Schaaktafel / Chess table (1x) <br>Het Loo 32<br>1851 HT Heiloo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/heiloo.png\" width=\"100%\"></a><br><br>52.604814, 4.711516<br><i>(est. Feb 17, 2022)</i>");	
+		
+		var tafel82 = L.marker([52.027482, 5.558986]).addTo(mymap)
+		.bindPopup("<b>#82 Kees Stipplein</b><br />Schaaktafel / Chess table (2x) <br>Kees Stipplein<br>3901 TP Veenendaal<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/veenen.png\" width=\"100%\"></a><br><br>52.027482, 5.558986<br><i>(est. Mar 2022)</i>");	
+		
+		var tafel83 = L.marker([52.302594, 4.846777]).addTo(mymap)
+		.bindPopup("<b>#83 Dorpsplein <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x) <br>Dorpsstrat 29<br>1182 JA Amstelveen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amstelveen.png\" width=\"100%\"></a><br><br>52.302594, 4.846777<br><i>(est. Mar 2022)</i>");
+		
+		var tafel84 = L.marker([52.101353, 5.127948]).addTo(mymap)
+		.bindPopup("<b>#84 Griftpark  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"> </b><br />Schaaktafel / Chess table (4x) <br>van Swindenstraat 129<br>3514 XR Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/griftpark.png\" width=\"100%\"></a><br><br>52.101353, 5.127948<br><i>(est. Mar 8, 2022)</i>");	
+		
+		var tafel85 = L.marker([53.224389, 6.555870]).addTo(mymap)
+		.bindPopup("<b>#85 Noorderplantsoen / Zondag</b><br />Schaaktafel / Chess table (2x)<br>Kruissingel 1<br>9712 XN Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/groningen1.jpg\" width=\"100%\"></a><br><br>53.224389, 6.555870<br><i>(est. Mar  2021)</i>");
+		
+		var tafel86 = L.marker([52.193664, 6.014578]).addTo(mymap)
+		.bindPopup("<b>#86 Eben-Haezerschool</b><br />Schaaktafel / Chess table (1x)<br>Valkeniersdonk 202<br>7326 KP Apeldoorn<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/apeldoorn2.png\" width=\"100%\"></a><br><br>52.193664, 6.014578<br><i>(est. Mar  2022)</i>");
+		
+		var tafel87 = L.marker([52.137601, 5.281075]).addTo(mymap)
+		.bindPopup("<b>#87 Herman van Veen Arts Center</b><br />Schaaktafel / Chess table (2x)<br>Landgoed de Paltz 1<br>3768 MZ Soest<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/soest2.png\" width=\"100%\"></a><br><br>52.137601, 5.281075<br><i>(est. Feb 18, 2022)</i>");
+		
+	
+		var tafel88 = L.marker([52.144918, 4.404299]).addTo(mymap)
+		.bindPopup("<b>#88 Stadhoudersplein</b><br />Schaaktafel / Chess table (3x)<br>Stadhoudersplein<br>2241 KJ Wassenaar<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/wassenaar.png\" width=\"100%\"></a><br><br>52.144918, 4.404299<br><i>(est. Mar 14, 2022)</i>");
+		
+		var tafel89 = L.marker([52.186245, 4.472087]).addTo(mymap)
+		.bindPopup("<b>#89 Irispark</b><br />Schaaktafel / Chess table (3x)<br>Irislaan<br>2343 CG Oegstgeest<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/oegstgeest.png\" width=\"100%\"></a><br><br>52.186245, 4.472087<br><i>(est. Mar 14, 2022)</i>");
+		
+		var tafel90 = L.marker([52.233853, 6.000527]).addTo(mymap)
+		.bindPopup("<b>#90 Park Zuidbroek</b><br />Schaaktafel / Chess table (1x)<br>thv Rumbastraat 5<br>7323 RG Apeldoorn<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zuidbroek.png\" width=\"100%\"></a><br><br>52.233853, 6.000527<br><i>(est. Mar 21, 2022)</i>");
+
+		var tafel91 = L.marker([51.819119, 5.868150]).addTo(mymap)
+		.bindPopup("<b>#91 Elinor Ostromgebouw</b><br />Schaaktafel / Chess table (1x)<br>Heyendaalseweg 141<br>6525 ED Nijmegen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ru1.png\" width=\"100%\"></a><br><br>51.819119, 5.868150<br><i>(est. Aug, 2021)</i>");
+		
+		var tafel92 = L.marker([51.823986, 5.869557]).addTo(mymap)
+		.bindPopup("<b>#92 Huygensgebouw</b><br />Schaaktafel / Chess table (1x)<br>Heyendaalseweg 135<br>6525 AJ Nijmegen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ru2.png\" width=\"100%\"></a><br><br>51.823986, 5.869557<br><i>(est. Aug, 2021)</i>");
+		
+		var tafel93 = L.marker([51.849964, 5.861205]).addTo(mymap)
+		.bindPopup("<b>#93 Waalkade <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (4x)<br>Oude Haven 92<br>6511 XH Nijmegen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/waalkade.png\" width=\"100%\"></a><br><br>51.849964, 5.861205<br><i>(est. Jun, 2021)</i>");
+		
+		var tafel94 = L.marker([51.942133, 4.359774]).addTo(mymap)
+		.bindPopup("<b>#94 Sportpark Willem Alexander</b><br />Schaaktafel / Chess table (2x)<br>Zoomweg 2 (thv dakterras)<br>3123 EP Schiedam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schiedam2.png\" width=\"100%\"></a><br><br>51.942133, 4.359774<br><i>(est. Mar, 2022)</i>");
+	
+		var tafel95 = L.marker([51.579579, 5.199207]).addTo(mymap)
+		.bindPopup("<b>#95 Lindepark</b><br />Schaaktafel / Chess table (2x)<br>De Balbian Versterlaan <br>5061 JC Oisterwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/oister.png\" width=\"100%\"></a><br><br>51.579579, 5.199207<br><i>(est. Mar, 2022)</i>");	
+		
+		
+			var tafel96 = L.marker([50.887057, 5.975079]).addTo(mymap)
+		.bindPopup("<b>#96 Stadstuin Heerlen</b><br />Schaaktafel / Chess table (3x)<br>Promenade 153 <br>6411 JE Heerlen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/heerlen.png\" width=\"100%\"></a><br><br>50.887057, 5.975079<br><i>(est. 24 Apr, 2022)</i>");	
+		
+			var tafel97 = L.marker([51.914490, 4.612295]).addTo(mymap)
+		.bindPopup("<b>#97 Zwaneneiland</b><br />Schaaktafel / Chess table (2x)<br>fietspad tegenover Akkerwinde 34 <br>2923 GB Krimpen a/d Ijssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/krimpen.png\" width=\"100%\"></a><br><br>51.914490, 4.612295<br><i>(est. 28 Apr, 2022)</i>");	
+		
+			var tafel98 = L.marker([52.065718, 4.360321]).addTo(mymap)
+		.bindPopup("<b>#98 Huygenstraverse</b><br />Schaaktafel / Chess table (1x)<br>Stationsplein bij Zhi Zhen Wijzer <br>2275 AZ Voorburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/voorburg.png\" width=\"100%\"></a><br><br>52.065718, 4.360321<br><i>(est. 7 Apr, 2022)</i>");
+		
+			var tafel99 = L.marker([51.580229, 5.038689]).addTo(mymap)
+		.bindPopup("<b>#99 Park Kruizemuntweg</b><br />Schaaktafel / Chess table (2x)<br>Hoek Kruizemuntweg<br>5044 BH Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/kruizem.png\" width=\"100%\"></a><br><br>51.580229, 5.038689<br><i>(est. 22 Feb, 2022)</i>");
+		
+		
+			var tafel100 = L.marker([52.503297, 4.769065]).addTo(mymap)
+		.bindPopup("<b>#100 Agathepark <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Eikelaan 51<br>1561 CB Krommenie<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/krommen.png\" width=\"100%\"></a><br><br>52.503297, 4.769065<br><i>(est. 18 May, 2022)</i>");
+		
+			var tafel101 = L.marker([51.942571, 4.852711]).addTo(mymap)
+		.bindPopup("<b>#101 Kolensteiger <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>Buiten de Veerpoort 1a<br>2871 CC Schoonhoven<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schoon.png\" width=\"100%\"></a><br><br>51.942571, 4.852711<br><i>(est. 18 May, 2022)</i>");
+		
+			var tafel102 = L.marker([52.013110, 4.711273]).addTo(mymap)
+		.bindPopup("<b>#102 Nieuwe Markt</b><br />Schaaktafel / Chess table (2x)<br>Nieuwe Markt 89<br>2801 GR Gouda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/gouda.png\" width=\"100%\"></a><br><br>52.013110, 4.711273<br><i>(est. 23 May, 2022)</i>");		
+		
+			var tafel103 = L.marker([51.959731, 4.473189]).addTo(mymap)
+		.bindPopup("<b>#103 Rododendronplein</b><br />Schaaktafel / Chess table (2x)<br>Rododendronplein <br>3053 GP Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/rodon.png\" width=\"100%\"></a><br><br>51.959731, 4.473189<br><i>(est. 01 Jun, 2022)</i>");		
+
+			var tafel104 = L.marker([52.088569, 4.883887]).addTo(mymap)
+		.bindPopup("<b>#104 Westdampark</b><br />Schaaktafel / Chess table (3x)<br>Oostsingel 1<br>3441 GB Woerden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/woerden.png\" width=\"100%\"></a><br><br>52.088569, 4.883887<br><i>(est. 08 Jun, 2022)</i>");		
+
+			var tafel105 = L.marker([52.041767, 6.105819]).addTo(mymap)
+		.bindPopup("<b>#105 Dieren-Zuid</b><br />Schaaktafel / Chess table (1x)<br>Kerkstraat 3<br>6953 BK Dieren<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dieren1.png\" width=\"100%\"></a><br><br>52.041767, 6.105819<br><i>(est. 2021)</i>");		
+
+	
+			var tafel106 = L.marker([51.953229, 5.847694]).addTo(mymap)
+		.bindPopup("<b>#106 Winkelcentrum Schuytgraaf <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x)<br>Pallas Atheneplein 2<br>6846 XB Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schuytgraaf.png\" width=\"100%\"></a><br><br>51.953229, 5.847694<br><i>(est. 15 Jul 2022)</i>");		
+
+	
+			var tafel107 = L.marker([53.331807, 6.927533]).addTo(mymap)
+		.bindPopup("<b>#107 Poststraat <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (4x)<br>Poststraat 4-2<br>9934 BE Delfzijl<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/delfzijl.png\" width=\"100%\"></a><br><br>53.331807, 6.927533<br><i>(est. 15 Jun 2022)</i>");
+		
+			var tafel108 = L.marker([52.349676, 4.852236]).addTo(mymap)
+		.bindPopup("<b>#108 Schinkelkade</b><br />Schaaktafel / Chess table (1x)<br>Schinkelkade 35-26<br>1075 VJ Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/schinkel.png\" width=\"100%\"></a><br><br>52.349676, 4.852236<br><i>(est. 2022)</i>");
+		
+			var tafel109 = L.marker([52.353736, 4.920110]).addTo(mymap)
+		.bindPopup("<b>#109 Krugerplein <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>Krugerplein<br>1092 KS Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/kruger3.png\" width=\"100%\"></a><br><br>52.353736, 4.920110<br><i>(est. 12 Jul 2022)</i>");
+		
+			var tafel110 = L.marker([51.938445, 4.562564]).addTo(mymap)
+		.bindPopup("<b>#110 IJsselland Ziekenhuis <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x)<br>Prins Constantijnweg 2<br>2906 ZC Capelle aan de IJssel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/capzkh.png\" width=\"100%\"></a><br><br>51.938445, 4.562564<br><i>(est. 12 Aug 2022)</i>");
+		
+			var tafel111 = L.marker([52.051057, 6.101181]).addTo(mymap)
+		.bindPopup("<b>#111 Callunaplein</b><br />Schaaktafel / Chess table (1x)<br>Callunaplein 77<br>6951 CN Dieren<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dieren2.png\" width=\"100%\"></a><br><br>52.051057, 6.101181<br><i>(est. 17 Jul 2022)</i>");
+	
+			var tafel112 = L.marker([52.014974, 4.698949]).addTo(mymap)
+		.bindPopup("<b>#112 Parkstraat</b><br />Schaaktafel / Chess table (3x)<br>Parkstraat 12<br>2801 SE Gouda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/gouda3.png\" width=\"100%\"></a><br><br>52.014974, 4.698949<br><i>(est. 24 Sep 2022)</i>");
+
+	
+			var tafel113 = L.marker([52.374487, 4.852219]).addTo(mymap)
+		.bindPopup("<b>#113 Erasmuspark</b><br />Schaaktafel / Chess table (2x)<br>Erasmuspark<br>1056 RK Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/erasm.png\" width=\"100%\"></a><br><br>52.374487, 4.852219<br><i>(est. unknown)</i>");
+
+	
+			var tafel114 = L.marker([52.232248, 4.489248]).addTo(mymap)
+		.bindPopup("<b>#114 Park Molentocht</b><br />Schaaktafel / Chess table (2x)<br>Hyacint 71<br>2215 CT Voorhout<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/voorhout.png\" width=\"100%\"></a><br><br>52.232248, 4.489248<br><i>(est. 28 Sep 2022)</i>");
+
+			var tafel115 = L.marker([51.728692, 5.878967]).addTo(mymap)
+		.bindPopup("<b>#115 Louis Jansenplein</b><br />Schaaktafel / Chess table (4x)<br>Louis Jansenplein<br>5431 BR Cuijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/cuijk.png\" width=\"100%\"></a><br><br>51.728692, 5.878967<br><i>(est. 20 Oct 2022)</i>");
+	
+			var tafel116 = L.marker([51.590768, 4.855852]).addTo(mymap)
+		.bindPopup("<b>#116 Dorpshuis de Klip</b><br />Schaaktafel / Chess table (1x)<br>Pastoor Den Rondenstraat 5<br>4849 BG Dorst<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dorst.png\" width=\"100%\"></a><br><br>51.590768, 4.855852<br><i>(est. medio 2021)</i>");
+	
+			var tafel117 = L.marker([51.992668, 4.115851]).addTo(mymap)
+		.bindPopup("<b>#117 Strand Hoek van Holland</b><br />Schaaktafel / Chess table (2x)<br>Rechtestraat 25<br>3151 HN Hoek van Holland<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hvh.png\" width=\"100%\"></a><br><br>51.992668, 4.115851<br><i>(est. medio 2015)</i>");
+	
+			var tafel118 = L.marker([51.545911, 4.103227]).addTo(mymap)
+		.bindPopup("<b>#118 Speelterrein Scaldistraat</b><br />Schaaktafel / Chess table (1x)<br>t.h.v. Scaldisstraat 11,<br>4694 ER Scherpenisse<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/scherp.png\" width=\"100%\"></a><br><br>51.545911, 4.103227<br><i>(est. medio 2022)</i>");
+		
+			var tafel119 = L.marker([52.130601, 5.190209]).addTo(mymap)
+		.bindPopup("<b>#119 Speeltuin Agaatvlinder</b><br />Schaaktafel / Chess table (4x)<br>Agaatvlinder<br>3723 TP Bilthoven<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/biltho.png\" width=\"100%\"></a><br><br>52.130601, 5.190209<br><i>(est. 05 Nov 2022)</i>");
+	
+	
+		var tafel120 = L.marker([51.592314, 4.788570]).addTo(mymap)
+		.bindPopup("<b>#120 Stedelijk Gymnasium</b><br />Schaaktafel / Chess table (4x)<br>Nassausingel 7<br>4811 DE Breda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/breda4.png\" width=\"100%\"></a><br><br>51.592314, 4.788570<br><i>(est. Jul 2022)</i>");
+	
+		var tafel121 = L.marker([51.890983, 4.178731]).addTo(mymap)
+		.bindPopup("<b>#121 Maerlant College</b><br />Schaaktafel / Chess table (1x)<br>Hossenbosdijk 14-16<br>3232 PX Brielle<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/brielle.png\" width=\"100%\"></a><br><br>51.890983, 4.178731<br><i>(est. Jul 2022)</i>");
+	
+			var tafel122 = L.marker([52.620985, 4.655021]).addTo(mymap)
+		.bindPopup("<b>#122 Huys Egmont</b><br />Schaaktafel / Chess table (1x)<br>Slotweg 46<br>1934 CN Egmond aan den Hoef<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/egmont.png\" width=\"100%\"></a><br><br>52.620985, 4.655021<br><i>(est. 08 Sep 2022)</i>");
+		
+		var tafel123 = L.marker([52.510739, 6.153085]).addTo(mymap)
+		.bindPopup("<b>#123 De Ambelt</b><br />Schaaktafel / Chess table (1x)<br>Herfterlaan 39<br>8026 RC Zwolle<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zwolle.png\" width=\"100%\"></a><br><br>52.510739, 6.153085<br><i>(est. Jan 2020)</i>");
+	
+		var tafel124 = L.marker([51.594285, 4.810427]).addTo(mymap)
+		.bindPopup("<b>#124 CBS De Fontein</b><br />Schaaktafel / Chess table (2x)<br>Kameelstraat 2,<br>4817 BS Breda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/breda2.png\" width=\"100%\"></a><br><br>51.594285, 4.810427<br><i>(est. 17 Jan 2020)</i>");
+	
+		var tafel125 = L.marker([52.025855, 4.268329]).addTo(mymap)
+		.bindPopup("<b>#125 Basisschool de Hofvilla</b><br />Schaaktafel / Chess table (1x)<br>Doctor Schaepmanstraat 2<br>2291 SX Wateringen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/water.png\" width=\"100%\"></a><br><br>52.025855, 4.268329<br><i>(est. 18 Mar 2020)</i>");
+
+		var tafel126 = L.marker([50.850900, 5.661780]).addTo(mymap)
+		.bindPopup("<b>#126 Terra Nigra Praktijkschool</b><br />Schaaktafel / Chess table (1x)<br>Terra Nigrastraat 5<br>6216 BK Maastricht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/maast1.png\" width=\"100%\"></a><br><br>50.850900, 5.661780<br><i>(est. 18 Mar 2020)</i>");
+
+	
+		var tafel127 = L.marker([52.358443, 4.799471]).addTo(mymap)
+		.bindPopup("<b>#127 Parkje Rat's Square</b><br />Schaaktafel / Chess table (3x)<br>Hoekmees 51<br>1068 MP Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hoekmees.png\" width=\"100%\"></a><br><br>52.358443, 4.799471<br><i>(est. unknown)</i>");
+
+		var tafel128 = L.marker([51.878300, 4.551402]).addTo(mymap)
+		.bindPopup("<b>#128 bij Speeltuin Reijeroord<img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Herenoord 14<br>3070 JJ Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hereno.png\" width=\"100%\"></a><br><br>51.878300, 4.551402<br><i>(est. Nov 2022)</i>");
+		
+		var tafel129 = L.marker([51.932435, 4.471317]).addTo(mymap)
+		.bindPopup("<b>#129 Eudokiaplein<img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Eudokiaplein 35<br>3037 BT Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/Eudokiaplein.png\" width=\"100%\"></a><br><br>51.932435, 4.471317<br><i>(est. Nov 2022)</i>");
+
+	
+		var tafel130 = L.marker([51.946373, 4.473587]).addTo(mymap)
+		.bindPopup("<b>#130 De Kleyburg<img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Wessel Gansfortweg 161-305<br>3052 KM Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/kleyburg.png\" width=\"100%\"></a><br><br>51.946373, 4.473587<br><i>(est. Nov 2022)</i>");
+
+
+		var tafel131 = L.marker([51.937888, 4.427975]).addTo(mymap)
+		.bindPopup("<b>#131 Sidelingepark<img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>t/o Albert Cuijpstraat 30<br>3043 AA Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/sideling.png\" width=\"100%\"></a><br><br>51.937888, 4.427975<br><i>(est. Nov 2022)</i>");
+
+		var tafel132 = L.marker([51.570894, 5.055182]).addTo(mymap)
+		.bindPopup("<b>#132 Westerpark</b><br />Schaaktafel / Chess table (1x)<br>Westerpark<br>5042 LS Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/tilwest.png\" width=\"100%\"></a><br><br>51.570894, 5.055182<br><i>(est. Nov 2022)</i>");
+
+		var tafel133 = L.marker([52.509384, 6.106652]).addTo(mymap)
+		.bindPopup("<b>#133 Park Wezenlanden <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Park De Wezenlanden 1<br>8012 BX Zwolle<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/wezenl.png\" width=\"100%\"></a><br><br>52.509384, 6.106652<br><i>(est. 14 Dec 2022)</i>");
+
+		var tafel134 = L.marker([51.882415, 5.306026]).addTo(mymap)
+		.bindPopup("<b>#134 Speeltuin de Goudsbloem</b><br />Schaaktafel / Chess table (1x)<br>Bloemee<br>4191 DL Geldermalsen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/geld.png\" width=\"100%\"></a><br><br>51.882415, 5.306026<br><i>(est. Nov 2022)</i>");
+
+			var tafel135 = L.marker([52.386906, 4.649838]).addTo(mymap)
+		.bindPopup("<b>#135 Max Euweplein</b><br />Schaaktafel / Chess table (3x)<br>Max Euweplein 50-45<br>2031 VP Haarlem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hlm1.png\" width=\"100%\"></a><br><br>52.386906, 4.649838<br><i>(est. 19 Dec 2022)</i>");
+
+
+		var tafel136 = L.marker([50.859221, 5.722536]).addTo(mymap)
+		.bindPopup("<b>#136 Sportpark de Geusselt</b><br />Schaaktafel / Chess table (2x)<br>Discusworp 10<br>6525 XP Maastricht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/mstr1.png\" width=\"100%\"></a><br><br>50.859221, 5.722536<br><i>(est. unknown)</i>");
+
+		var tafel137 = L.marker([53.189875, 5.780308]).addTo(mymap)
+		.bindPopup("<b>#137 Winkelcentrum Uiterdijksterweg</b><br />Schaaktafel / Chess table (1x)<br>Uiterdijksterweg 15a<br>8931 BK Leeuwarden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/lwd1.png\" width=\"100%\"></a><br><br>53.189875, 5.780308<br><i>(est. unknown)</i>");
+
+		var tafel138 = L.marker([51.960576, 5.860208]).addTo(mymap)
+		.bindPopup("<b>#138 Winkelcentrum Elderhof <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x)<br>Elderveldplein 2-12<br>6843 JA Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/elden.png\" width=\"100%\"></a><br><br>51.960576, 5.860208<br><i>(est. 14 Aug 2022)</i>");
+
+		var tafel139 = L.marker([52.357281, 6.660075]).addTo(mymap)
+		.bindPopup("<b>#139 Stadhuis Almelo</b><br />Schaaktafel / Chess table (1x)<br>Haven Zuidzijde 30<br>7607 EW Almelo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/almelo.png\" width=\"100%\"></a><br><br>52.357281, 6.660075<br><i>(est. Aug 2021)</i>");
+		
+		var tafel140 = L.marker([51.477054, 5.624329]).addTo(mymap)
+		.bindPopup("<b>#140 Brainport Human Campus</b><br />Schaaktafel / Chess table (1x)<br>Tunnelovenweg 4<br>5708 HN Helmond<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/helmond.png\" width=\"100%\"></a><br><br>51.477054, 5.624329<br><i>(est. Jan 2022)</i>");
+		
+		var tafel141 = L.marker([52.510306, 4.966093]).addTo(mymap)
+		.bindPopup("<b>#141 Wijkcentrum Triton</b><br />Schaaktafel / Chess table (2x)<br>Triton 73<br>1443 BM Purmerend<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/purm1.png\" width=\"100%\"></a><br><br>52.510306, 4.966093<br><i>(est. Mar 2024)</i>");
+	
+		var tafel142 = L.marker([51.676920, 4.796359]).addTo(mymap)
+		.bindPopup("<b>#142 Gemeentehuis Drimmelen</b><br />Schaaktafel / Chess table (1x)<br>Park 1<br>4921 BV Made<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/made.png\" width=\"100%\"></a><br><br>51.676920, 4.796359<br><i>(est. Sep 2021)</i>");
+	
+		var tafel143 = L.marker([52.789405, 6.107340]).addTo(mymap)
+		.bindPopup("<b>#143 School B</b><br />Schaaktafel / Chess table (1x)<br>Meester Zigher Ter Steghestraat 1<br>8331 KG Steenwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/steenwijk.jpg\" width=\"100%\"></a><br><br>52.789405, 6.107340<br><i>(est. Dec 2021)</i>");
+		
+		var tafel144 = L.marker([52.182188, 5.003637]).addTo(mymap)
+		.bindPopup("<b>#144 Henk van der Griftpark</b><br />Schaaktafel / Chess table (1x)<br>Straatweg 185B<br>3621 BM Breukelen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/breuk2.png\" width=\"100%\"></a><br><br>52.182188, 5.003637<br><i>(est. Dec 2022)</i>");
+		
+		var tafel145 = L.marker([51.690721, 5.086823]).addTo(mymap)
+		.bindPopup("<b>#145 BaLaDe <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>BaLaDe 1<br>5142 WX Waalwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/waalw1.png\" width=\"100%\"></a><br><br>51.690721, 5.086823<br><i>(est. Jan 23, 2023)</i>");
+		
+		var tafel146 = L.marker([51.691281, 5.065922]).addTo(mymap)
+		.bindPopup("<b>#146 Achter het oude Raadhuis <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>Winterdijk 30b<br>5141 KE Waalwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/waalw4.png\" width=\"100%\"></a><br><br>51.691281, 5.065922<br><i>(est. Jan 23, 2023)</i>");
+		
+		var tafel147 = L.marker([52.211645, 6.876102]).addTo(mymap)
+		.bindPopup("<b>#147 Wijkcentrum de Boei</b><br />Schaaktafel / Chess table (1x)<br>Spinnerstraat 27A<br>7545 TP Enschede<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/twente.png\" width=\"100%\"></a><br><br>52.211645, 6.876102<br><i>(est. Feb 06, 2023)</i>");
+		
+		var tafel148 = L.marker([51.683484, 5.316512]).addTo(mymap)
+		.bindPopup("<b>#148 Zuiderpark</b><br />Schaaktafel / Chess table (1x)<br>nabij Gregoriussingel 27<br>5216 GK Den Bosch<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zuidbos.png\" width=\"100%\"></a><br><br>51.683484, 5.316512<br><i>(est. unknown)</i>");
+		
+		
+		var tafel149 = L.marker([51.770590, 5.525263]).addTo(mymap)
+		.bindPopup("<b>#149 Terwaenen</b><br />Schaaktafel / Chess table (4x)<br>Terwaenen 27<br>5341 DC Oss<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/oss.png\" width=\"100%\"></a><br><br>51.770590, 5.525263<br><i>(est. 24 Mar 2023)</i>");
+
+		var tafel150 = L.marker([52.517890, 6.006816]).addTo(mymap)
+		.bindPopup("<b>#150 Dorpshuis An De Steege</b><br />Schaaktafel / Chess table (1x)<br>Broeksteeg 42<br>8276 AG Zalk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zalk.png\" width=\"100%\"></a><br><br>52.517890, 6.006816<br><i>(est. 28 Mar 2023)</i>");
+
+		var tafel151 = L.marker([52.278040, 5.669342]).addTo(mymap)
+		.bindPopup("<b>#151 Schaapskooi</b><br />Schaaktafel / Chess table (2x)<br>Postweg 50<br>3852 PK Ermelo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/erm1.png\" width=\"100%\"></a><br><br>52.278040, 5.669342<br><i>(est. 29 Mar 2023)</i>");
+
+		var tafel152 = L.marker([52.294059, 5.616391]).addTo(mymap)
+		.bindPopup("<b>#152 De Baanveger <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Ijsbaanweg 45<br>3851 CP Ermelo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/erm2.png\" width=\"100%\"></a><br><br>52.294059, 5.616391<br><i>(est. 29 Mar 2023)</i>");
+
+		var tafel153 = L.marker([52.295487, 5.599912]).addTo(mymap)
+		.bindPopup("<b>#153 Kwetternestpark </b><br />Schaaktafel / Chess table (2x)<br>Zwaluwstraat 125<br>3853 CC Ermelo<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/erm3.png\" width=\"100%\"></a><br><br>52.295487, 5.599912<br><i>(est. 29 Mar 2023)</i>");
+		
+		var tafel154 = L.marker([51.370915, 5.252080]).addTo(mymap)
+		.bindPopup("<b>#154 MFA Hart van Hapert </b><br />Schaaktafel / Chess table (1x)<br>Oude Provincialeweg 21<br>5527 BM Hapert<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hapert.png\" width=\"100%\"></a><br><br>51.370915, 5.252080<br><i>(est. 2023)</i>");
+		
+		var tafel155 = L.marker([52.293264, 4.584545]).addTo(mymap)
+		.bindPopup("<b>#155 Julianapark </b><br />Schaaktafel / Chess table (1x)<br>Oranjelaan 1<br>2181 SB Hillegom<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hilleg.png\" width=\"100%\"></a><br><br>52.293264, 4.584545<br><i>(est. May 2023)</i>");
+	
+			var tafel156 = L.marker([52.150199, 4.779589]).addTo(mymap)
+		.bindPopup("<b>#156 Reghthuysplein </b><br />Schaaktafel / Chess table (1x)<br>Dorpsstraat 66<br>2421 BB Nieuwkoop<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/nieuwk.png\" width=\"100%\"></a><br><br>52.150199, 4.779589<br><i>(est. Jun 2023)</i>");
+		
+				var tafel157 = L.marker([52.494593, 5.072378]).addTo(mymap)
+		.bindPopup("<b>#157 Pop- en Cultuurhuis PX </b><br />Schaaktafel / Chess table (1x)<br>W.J. Tuijnstraat 15<br>1131 ZH Volendam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/voldam.png\" width=\"100%\"></a><br><br>52.494593, 5.072378<br><i>(est. Jun 2023)</i>");	
+		
+				var tafel158 = L.marker([52.474810, 4.797241]).addTo(mymap)
+		.bindPopup("<b>#158 Evang. Basisschool Het Schatrijk </b><br />Schaaktafel / Chess table (1x)<br>Rooswijkplein 10<br>1544 VZ Zaandijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zaand.png\" width=\"100%\"></a><br><br>52.474810, 4.797241<br><i>(est. Jun 2023)</i>");	
+		
+				var tafel159 = L.marker([52.521910, 5.728395]).addTo(mymap)
+		.bindPopup("<b>#159 Speeltuin de Schalm </b><br />Schaaktafel / Chess table (1x)<br>De Schalm 19<br>8251 LB Dronten<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dront.png\" width=\"100%\"></a><br><br>52.521910, 5.728395<br><i>(est. Jun 2023)</i>");
+
+				var tafel160 = L.marker([52.027724, 4.230748]).addTo(mymap)
+		.bindPopup("<b>#160 WSKO Verburch-Hof </b><br />Schaaktafel / Chess table (2x)<br>De Ruijtbaan 81<br>2685 RS Poeldijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/poeld.png\" width=\"100%\"></a><br><br>52.027724, 4.230748<br><i>(est. Jun 2022)</i>");
+
+				var tafel161 = L.marker([52.030806, 4.184575]).addTo(mymap)
+		.bindPopup("<b>#161 1e Westlandse Montessorischool </b><br />Schaaktafel / Chess table (1x)<br>Madeweg 34A<br>2681 PM Monster<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/monst.png\" width=\"100%\"></a><br><br>52.030806, 4.184575<br><i>(est. Jul 2023)</i>");
+
+				var tafel162 = L.marker([52.050603, 4.480873]).addTo(mymap)
+		.bindPopup("<b>#162 Activiteitencentrum de Spil <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x)<br>Stadhoudersring 5<br>2713 GA Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoet1.png\" width=\"100%\"></a><br><br>52.050603, 4.480873<br><i>(est. Jul 2023)</i>");
+
+				var tafel163 = L.marker([52.052100, 4.471961]).addTo(mymap)
+		.bindPopup("<b>#163 Buurthuis Het Anker <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (1x)<br>Schuitwater 2<br>2715 BL Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoet2.png\" width=\"100%\"></a><br><br>52.052100, 4.471961<br><i>(est. Jul 2023)</i>");
+
+				var tafel164 = L.marker([53.032499, 5.660819]).addTo(mymap)
+		.bindPopup("<b>#164 Schaapmarktplein </b><br />Schaaktafel / Chess table (1x)<br>Schaapmarktplein 9<br>8601 CE Sneek<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/sneek.png\" width=\"100%\"></a><br><br>53.032499, 5.660819<br><i>(est. May 2023)</i>");
+
+				var tafel165 = L.marker([52.362382, 4.882814]).addTo(mymap)
+		.bindPopup("<b>#165 Max Euweplein </b><br />Schaaktafel / Chess table (5x)<br>Max Euweplein 30II<br>1017 MB Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/euwe.png\" width=\"100%\"></a><br><br>52.362382, 4.882814<br><i>(est. Jun 2023)</i>");
+
+				var tafel166 = L.marker([52.069428, 4.329856]).addTo(mymap)
+		.bindPopup("<b>#166 Speeltuin Bontekoekade </b><br />Schaaktafel / Chess table (1x)<br>Bontekoekade 111<br>2516 LD Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/koeka.png\" width=\"100%\"></a><br><br>52.069428, 4.329856<br><i>(est. Jul 2021)</i>");
+
+				var tafel167 = L.marker([52.064321, 4.295360]).addTo(mymap)
+		.bindPopup("<b>#167 Buurthuis Mandelaplein </b><br />Schaaktafel / Chess table (2x)<br>Mandelaplein 1<br>2572 HT Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/mande.png\" width=\"100%\"></a><br><br>52.064321, 4.295360<br><i>(est. Mar 2022)</i>");
+		
+				var tafel168 = L.marker([52.148386, 4.450985]).addTo(mymap)
+		.bindPopup("<b>#168 Anne Frank school </b><br />Schaaktafel / Chess table (1x)<br>Zuster Meijboomstraat 2<br>2331 PD Leiden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/leidenaf.png\" width=\"100%\"></a><br><br>52.148386, 4.450985<br><i>(est. Jul 2023)</i>");
+
+				var tafel169 = L.marker([51.994340, 4.343555]).addTo(mymap)
+		.bindPopup("<b>#169 Kopiekoffie </b><br />Schaaktafel / Chess table (4x)<br>Chopinlaan 377<br>2625 TN Delft<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/delft1.png\" width=\"100%\"></a><br><br>51.994340, 4.343555<br><i>(est. Sep 2023)</i>");
+		
+				var tafel170 = L.marker([51.460765, 5.430320]).addTo(mymap)
+		.bindPopup("<b>#170 International School </b><br />Schaaktafel / Chess table <br>Oirschotsedijk 14B<br>5651 GC Eindhoven<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/eind1.png\" width=\"100%\"></a><br><br>51.460765, 5.430320<br><i>(est. Apr 2022)</i>");
+
+				var tafel171 = L.marker([52.079840, 4.338953]).addTo(mymap)
+		.bindPopup("<b>#171 RK Basisschool Liduina  </b><br />Schaaktafel / Chess table <br>Amalia van Solmsstraat 157<br>2595 TA Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/lidu.png\" width=\"100%\"></a><br><br>52.079840, 4.338953<br><i>(est. Jun 2021)</i>")
+		
+				var tafel172 = L.marker([52.308075, 4.878380]).addTo(mymap)
+		.bindPopup("<b>#172 De Bloeiwijzer  </b><br />Schaaktafel / Chess table <br>Den Bloeyenden Wijngaerdt 2<br>1183 JM Amstelveen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bloei.png\" width=\"100%\"></a><br><br>52.308075, 4.878380<br><i>(est. Jan 2022)</i>")
+		
+				var tafel173 = L.marker([51.598325, 4.789288]).addTo(mymap)
+		.bindPopup("<b>#173 PUKplein </b><br />Schaaktafel / Chess table <br>Jan van der Heijdenstraat<br>4816 CL Breda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/puk.png\" width=\"100%\"></a><br><br>51.598325, 4.789288<br><i>(est. May 2021)</i>")
+		
+				var tafel174 = L.marker([52.490577, 4.673014]).addTo(mymap)
+		.bindPopup("<b>#174 OBS Het Kompas </b><br />Schaaktafel / Chess table <br>Drechtstraat 9<br>1946 AZ Beverwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bever.png\" width=\"100%\"></a><br><br>52.490577, 4.673014<br><i>(est. Jan 2023)</i>")
+	
+				var tafel175 = L.marker([51.819653, 4.774671]).addTo(mymap)
+		.bindPopup("<b>#175 Winkelplein aan Kerkbuurt </b><br />Schaaktafel / Chess table <br>Kerkbuurt 33-35 A<br>3361 BC Sliedrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/slied.png\" width=\"100%\"></a><br><br>51.819653, 4.774671<br><i>(est. Jun 2023)</i>")
+		
+
+				var tafel176 = L.marker([51.492884, 4.043224]).addTo(mymap)
+		.bindPopup("<b>#176 Ds. G.H. Kerstenschool </b><br />Schaaktafel / Chess table <br>Jolstraat 1<br>4401 JC Yerseke<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/yers.png\" width=\"100%\"></a><br><br>51.492884, 4.043224<br><i>(est. Jun 2023)</i>")
+
+				var tafel177 = L.marker([52.088893, 4.347691]).addTo(mymap)
+		.bindPopup("<b>#177 The British School </b><br />Schaaktafel / Chess table (3x) <br>Vlaskamp 19<br>2592 AA Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/brit.png\" width=\"100%\"></a><br><br>52.088893, 4.347691<br><i>(est. Jul 2023)</i>")
+		
+						var tafel178 = L.marker([51.562453, 5.049734]).addTo(mymap)
+		.bindPopup("<b>#178 Prof. de Moorplein </b><br />Schaaktafel / Chess table (2x) <br>Professor de Moorplein 491<br>5037 DR Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/moor.png\" width=\"100%\"></a><br><br>51.562453, 5.049734<br><i>(est. Apr 2023)</i>")
+
+						var tafel179 = L.marker([51.597130, 5.005752]).addTo(mymap)
+		.bindPopup("<b>#179 Truckparking Vossenberg </b><br />Schaaktafel / Chess table  <br>Theseusstraat 11<br>5047 RH Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/truck.png\" width=\"100%\"></a><br><br>51.597130, 5.005752<br><i>(est. Nov 2022)</i>")
+
+
+				var tafel180 = L.marker([52.255349, 5.264146]).addTo(mymap)
+		.bindPopup("<b>#180 Huis van Eemnes  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table  <br>Noordersingel 4<br>3755 EZ Eemnes<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/eemnes.png\" width=\"100%\"></a><br><br>52.255349, 5.264146<br><i>(est. Aug 2023)</i>")
+
+				var tafel181 = L.marker([52.062033, 4.490881]).addTo(mymap)
+		.bindPopup("<b>#181 Warande  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table  <br>Warande 12<br>2711 HZ Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoet3.png\" width=\"100%\"></a><br><br>52.062033, 4.490881<br><i>(est. Sep 2023)</i>")
+		
+				var tafel182 = L.marker([53.364270, 5.215934]).addTo(mymap)
+		.bindPopup("<b>#182 De Stilen  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table  <br>Duintuin 15<br>8881 CH West-Terschelling<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ters.png\" width=\"100%\"></a><br><br>53.364270, 5.215934<br><i>(est. Jul 2023)</i>")
+
+				var tafel183 = L.marker([52.041955, 4.465839]).addTo(mymap)
+		.bindPopup("<b>#183 Floriadepark  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table  <br>nabij Mahoniehout 58<br>2719 JH Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoet4.jpg\" width=\"100%\"></a><br><br>52.041955, 4.465839<br><i>(est. Sep 2023)</i>")
+		
+				var tafel184 = L.marker([52.061385, 4.487865]).addTo(mymap)
+		.bindPopup("<b>#184 Plaats  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table  <br>Plaats 22<br>2711 AW Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoet5.jpg\" width=\"100%\"></a><br><br>52.061385, 4.487865<br><i>(est. Sep 2023)</i>")
+
+				var tafel185 = L.marker([51.456486, 5.788161]).addTo(mymap)
+		.bindPopup("<b>#185 Stationsplein  </b><br />Schaaktafel / Chess table  <br>Stationsplein 31<br>5751 JN Deurne<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/deurne.png\" width=\"100%\"></a><br><br>51.456486, 5.788161<br><i>(est. Sep 2023)</i>")
+
+				var tafel186 = L.marker([52.041670, 4.651634]).addTo(mymap)
+		.bindPopup("<b>#186 Gouweplein  </b><br />Schaaktafel / Chess table  <br>Gouweplein 6<br>2741 MW Waddinxveen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/wdnx.png\" width=\"100%\"></a><br><br>52.041670, 4.651634<br><i>(est. 2016)</i>")
+		
+				var tafel187 = L.marker([51.914645, 4.479219]).addTo(mymap)
+		.bindPopup("<b>#187 Cruyff Court 't Landje  </b><br />Schaaktafel / Chess table  <br>Schiedamse Vest 121<br>3012 BH Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ccrdm.png\" width=\"100%\"></a><br><br>51.914645, 4.479219<br><i>(est. 2017)</i>")
+		
+				var tafel188 = L.marker([51.465842, 3.604827]).addTo(mymap)
+		.bindPopup("<b>#188 Woonzorgcentrum Nieuw Bachtenpoorte </b><br />Schaaktafel / Chess table  <br>Oranjeplein 86<br>4388 AH Oost-Souburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/soub.png\" width=\"100%\"></a><br><br>51.465842, 3.604827<br><i>(est. 2017)</i>")
+		
+				var tafel189 = L.marker([52.282800, 4.485434]).addTo(mymap)
+		.bindPopup("<b>#189 Stayokay Hostel </b><br />Schaaktafel / Chess table  <br>Langevelderlaan 45<br>2204 BC Noordwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/noordw.png\" width=\"100%\"></a><br><br>52.282800, 4.485434<br><i>(est. 2023)</i>")
+		
+				var tafel190 = L.marker([52.366795, 4.875665]).addTo(mymap)
+		.bindPopup("<b>#190 Speeltuin Da Costastraat </b><br />Schaaktafel / Chess table  <br>Da Costastraat 135<br>1053 ZM Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/costa.png\" width=\"100%\"></a><br><br>52.366795, 4.875665<br><i>(est. unknown)</i>")
+		
+				var tafel191 = L.marker([52.010812, 4.720211]).addTo(mymap)
+		.bindPopup("<b>#191 Brugklasgebouw GSG Leo Vroman </b><br />Schaaktafel / Chess table  <br>Burgemeester Martenssingel 725<br>2806 CW Gouda<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/goudbrug.png\" width=\"100%\"></a><br><br>52.010812, 4.720211<br><i>(est. Oct 2023)</i>")
+		
+				var tafel192 = L.marker([51.954450, 5.89930]).addTo(mymap)
+		.bindPopup("<b>#192 Kindcentrum Het Middelpunt </b><br />Schaaktafel / Chess table  <br>Slochterenweg 27<br>6835 CD Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vreden.png\" width=\"100%\"></a><br><br>51.954450, 5.89930<br><i>(est. Jul 2023)</i>")
+		
+				var tafel193 = L.marker([51.361787, 5.597782]).addTo(mymap)
+		.bindPopup("<b>#193 De Berkenschutse </b><br />Schaaktafel / Chess table  <br>Sterkselseweg 65<br>5591 VE Heeze<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/heeze1.png\" width=\"100%\"></a><br><br>51.361787, 5.597782<br><i>(est. Feb 2023)</i>")
+		
+			var tafel194 = L.marker([52.490554, 5.505707]).addTo(mymap)
+		.bindPopup("<b>#194 Beweeg- en Ontmoetingsplek Overcinge </b><br />Schaaktafel / Chess table  <br>t/o Overcinge 64<br>8226 TN Lelystad<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/lely1.png\" width=\"100%\"></a><br><br>52.490554, 5.505707<br><i>(est. Sep 2023)</i>")
+	
+		var tafel195 = L.marker([51.813674, 5.247161]).addTo(mymap)
+		.bindPopup("<b>#195 Lunchcafe In de Roos </b><br />Schaaktafel / Chess table  <br>Markt 10<br>5301 AL Zaltbommel<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zaltb.png\" width=\"100%\"></a><br><br>51.813674, 5.247161<br><i>(est. unknown)</i>")
+	
+		var tafel196 = L.marker([52.264476, 4.756173]).addTo(mymap)
+		.bindPopup("<b>#196 Speeltuin Clematisstraat </b><br />Schaaktafel / Chess table (2x) <br>t/o Clematisstraat 14<br>1431 SE Aalsmeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/aalsm.png\" width=\"100%\"></a><br><br>52.264476, 4.756173<br><i>(est. Oct 2023)</i>")
+		
+		var tafel197 = L.marker([51.973874, 5.729310]).addTo(mymap)
+		.bindPopup("<b>#197 Europaplein </b><br />Schaaktafel / Chess table <br>t/o Wouter van Den Bornplantsoen 9<br>6871 XV Renkum<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/renk.png\" width=\"100%\"></a><br><br>51.973874, 5.729310<br><i>(est. Sep 2023)</i>")
+		
+		var tafel198 = L.marker([52.527879, 5.717143]).addTo(mymap)
+		.bindPopup("<b>#198 Ontmoetingspark Buiten! <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x) <br>De Dukdalf 2<br>8251 GJ Dronten<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dront2.png\" width=\"100%\"></a><br><br>52.527879, 5.717143<br><i>(est. Nov 2023)</i>")
+		
+		var tafel199 = L.marker([52.263072, 6.143081]).addTo(mymap)
+		.bindPopup("<b>#199 Speeltuin De Zandweerd </b><br />Schaaktafel / Chess table <br>Everhard van Reijdtstraat 10<br>7412 EA Deventer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/devtr1.png\" width=\"100%\"></a><br><br>52.263072, 6.143081<br><i>(est. Jun 2023)</i>")
+		
+		var tafel200 = L.marker([51.398174, 5.469101]).addTo(mymap)
+		.bindPopup("<b>#200 Nutsbasisschool De Meent </b><br />Schaaktafel / Chess table <br>Anemonelaan 2<br>5582 GC Waalre<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/waalre.png\" width=\"100%\"></a><br><br>51.398174, 5.469101<br><i>(est. Dec 2021)</i>")
+		
+		var tafel201 = L.marker([52.058449, 4.321995]).addTo(mymap)
+		.bindPopup("<b>#201 Jonckbloetplein </b><br />Schaaktafel / Chess table <br>Jonckbloetplein 14<br>2523 AR Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/jonck.png\" width=\"100%\"></a><br><br>52.058449, 4.321995<br><i>(est. Nov 2023)</i>")
+		
+		var tafel202 = L.marker([51.918496, 4.525708]).addTo(mymap)
+		.bindPopup("<b>#202 Campus Woudestein <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table <br>Burgemeester Oudlaan 50 P<br>3062 PA Rotterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/erasmus.png\" width=\"100%\"></a><br><br>Photo: <br>Erasmus University Rotterdam – Alexander Santos Lima<br>51.918496, 4.525708<br><i>(est. Nov 2023)</i>")
+		
+		var tafel203 = L.marker([53.215413, 6.541633]).addTo(mymap)
+		.bindPopup("<b>#203 OJS De Petteflat </b><br />Schaaktafel / Chess table (2x)<br>Jacob van Ruysdaelstraat 73<br>9718 SC Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/petflat.png\" width=\"100%\"></a><br><br>53.215413, 6.541633<br><i>(est. May 2023)</i>")
+		
+		
+		var tafel204 = L.marker([52.455899, 5.691973]).addTo(mymap)
+		.bindPopup("<b>#204 MFC De Binding <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>Akkerhof 3a<br>8256 BK Biddinghuizen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bind.png\" width=\"100%\"></a><br><br>52.455899, 5.691973<br><i>(est. Nov 2023)</i>")
+				
+		var tafel205 = L.marker([51.715474, 5.327137]).addTo(mymap)
+		.bindPopup("<b>#205 BBS Haren Donk en Reit </b><br />Schaaktafel / Chess table <br>Ploossche Hof 85<br>5233 HG 's-Hertogenbosch<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bbs.png\" width=\"100%\"></a><br><br>52.455899, 5.691973<br><i>(est. May 2023)</i>")
+
+		var tafel206 = L.marker([52.071260, 4.261115]).addTo(mymap)
+		.bindPopup("<b>#206 Vruchtenbuurt Perziklaan </b><br />Schaaktafel / Chess table <br>t/o Perziklaan 50<br>2564 TX Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/perzik.png\" width=\"100%\"></a><br><br>52.455899, 5.691973<br><i>(est. Dec 2023)</i>")
+		
+		var tafel207 = L.marker([52.197576, 5.437174]).addTo(mymap)
+		.bindPopup("<b>#207 Terschellingkade </b><br />Schaaktafel / Chess table <br>t/o Terschellingkade 284<br>3829 ND Amersfoort<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amsf.png\" width=\"100%\"></a><br><br>52.197576, 5.437174<br><i>(est. Jun 2023)</i>")
+
+		var tafel208 = L.marker([51.957036, 5.880916]).addTo(mymap)
+		.bindPopup("<b>#208 Molenweg Elden</b><br />Schaaktafel / Chess table <br>t/o Rijksweg-West 32a<br>6842 BD Arnhem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/elden2.png\" width=\"100%\"></a><br><br>51.957036, 5.880916<br><i>(est. May 2023)</i>")
+
+		var tafel209 = L.marker([52.016117, 5.645772]).addTo(mymap)
+		.bindPopup("<b>#209 De Gelderhorst</b><br />Schaaktafel / Chess table <br>Willy Brandtlaan 40<br>6716 RK Ede<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ede2.png\" width=\"100%\"></a><br><br>52.016117, 5.645772<br><i>(est. 2023)</i>")
+		
+		var tafel210 = L.marker([52.200852, 4.389981]).addTo(mymap)
+		.bindPopup("<b>#210 DUNA atelier</b><br />Schaaktafel / Chess table (2x)<br>Duinplein, bij Vuurtoren, Boulevard Zeezijde 31<br>2225 BB Katwijk aan Zee<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/katwA.png\" width=\"100%\"></a><br><br>52.200852, 4.389981<br><i>(est. Feb 2024)</i>")
+
+		var tafel211 = L.marker([52.206438, 4.411095]).addTo(mymap)
+		.bindPopup("<b>#211 Kanaaldijk nabij de Goerie</b><br />Schaaktafel / Chess table (3x)<br>Kanaaldijk<br>2221 AA Katwijk aan Zee<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/katwB.png\" width=\"100%\"></a><br><br>52.206438, 4.411095<br><i>(est. Feb 2024)</i>")
+
+		var tafel212 = L.marker([52.664866, 4.771274]).addTo(mymap)
+		.bindPopup("<b>#212 Rudolf Steinerschool</b><br />Schaaktafel / Chess table<br>Sperwerstraat 1<br>1826 KL Alkmaar<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/alkmA.png\" width=\"100%\"></a><br><br>52.664866, 4.771274<br><i>(est. Feb 2024)</i>")
+
+		var tafel213 = L.marker([50.846736, 5.685662]).addTo(mymap)
+		.bindPopup("<b>#213 Franciscanenplein</b><br />Schaaktafel / Chess table<br>Patersbaan 13 E<br>6211 LZ Maastricht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/kromm.png\" width=\"100%\"></a><br><br>50.846736, 5.685662<br><i>(est. Sep 2022)</i>")
+
+		var tafel214 = L.marker([52.356000, 4.914866]).addTo(mymap)
+		.bindPopup("<b>#214 Iepenplein</b><br />Schaaktafel / Chess table<br>Iepenplein 21-11<br>1091 TZ Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/iep.png\" width=\"100%\"></a><br><br>52.356000, 4.914866<br><i>(est. Feb 2024)</i>")
+
+		var tafel215 = L.marker([51.697551, 5.341330]).addTo(mymap)
+		.bindPopup("<b>#215 Soc Cult Centrum de Biechten</b><br />Schaaktafel / Chess table (2x)<br>Vincent van Goghlaan 1<br>5246 GA Rosmalen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/biecht.png\" width=\"100%\"></a><br><br>51.697551, 5.341330<br><i>(est. Feb 2024)</i>")
+
+		var tafel216 = L.marker([52.504246, 4.956099]).addTo(mymap)
+		.bindPopup("<b>#216 Poelstraat</b><br />Schaaktafel / Chess table (2x)<br>t/o Poelstraat 23<br>1441 RR Purmerend<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/purm2.png\" width=\"100%\"></a><br><br>52.504246, 4.956099<br><i>(est. Mar 2024)</i>")
+
+		var tafel217 = L.marker([51.811972, 4.678228]).addTo(mymap)
+		.bindPopup("<b>#217 Park Merwestein</b><br />Schaaktafel / Chess table (1x)<br>nabij Singel 81<br>3311 PB Dordrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dordtmer.png\" width=\"100%\"></a><br><br>51.811972, 4.678228<br><i>(est. Mar 2023)</i>")
+
+		var tafel218 = L.marker([51.730353, 4.487606]).addTo(mymap)
+		.bindPopup("<b>#218 Speelplek Zweedse Wijk</b><br />Schaaktafel / Chess table (2x)<br>nabij Zweedse Wijk 3<br>3281 KW Numansdorp<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/numan.png\" width=\"100%\"></a><br><br>51.730353, 4.487606<br><i>(est. Sep 2023)</i>")
+
+		var tafel219 = L.marker([52.504981, 6.261113]).addTo(mymap)
+		.bindPopup("<b>#219 Kerkplein</b><br />Schaaktafel / Chess table (1x)<br>Kerkplein 31<br>7721 AD Dalfsen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dalfsen.png\" width=\"100%\"></a><br><br>52.504981, 6.261113<br><i>(est. Mar 2024)</i>")
+
+		var tafel220 = L.marker([52.099552, 5.012333]).addTo(mymap)
+		.bindPopup("<b>#220 Speelplek de Hagen</b><br />Schaaktafel / Chess table (1x)<br>Gouden Koetslaan 97<br>3452 JV Vleuten (Utrecht)<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vleuthag.png\" width=\"100%\"></a><br><br>52.099552, 5.012333<br><i>(est. Nov 2023)</i>")
+
+		var tafel221 = L.marker([52.572128, 5.644309]).addTo(mymap)
+		.bindPopup("<b>#221 MFC De Kombuis <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (2x)<br>De Schutsluis 13<br>8255 HT Swifterbant<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/swift.png\" width=\"100%\"></a><br><br>52.572128, 5.644309<br><i>(est. 6 Apr 2024)</i>")
+
+		var tafel222 = L.marker([51.404297, 5.745969]).addTo(mymap)
+		.bindPopup("<b>#222 Markt </b><br />Schaaktafel / Chess table (2x)<br>Markt 14<br>5721 GE Asten<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/asten.png\" width=\"100%\"></a><br><br>51.404297, 5.745969<br><i>(est. 13 Apr 2024)</i>")
+
+		var tafel223 = L.marker([52.057701, 4.536448]).addTo(mymap)
+		.bindPopup("<b>#223 Oosterheem Urban Sportvoorziening <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"> </b><br />Schaaktafel / Chess table (1x)<br>Tasmanië 124<br>2721 GA Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/zoetheem.png\" width=\"100%\"></a><br><br>52.057701, 4.536448<br><i>(est. 17 Apr 2024)</i>")
+
+		var tafel224 = L.marker([51.469791, 5.269110]).addTo(mymap)
+		.bindPopup("<b>#224 Speelplaats Postelplein </b><br />Schaaktafel / Chess table (1x)<br>t/o Postelstraat 7<br>5091 AW Oost-, West- en Middelbeers<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/oostel.png\" width=\"100%\"></a><br><br>51.469791, 5.269110<br><i>(est. 4 Jun 2021)</i>")
+
+		var tafel225 = L.marker([52.295630, 5.273574]).addTo(mymap)
+		.bindPopup("<b>#225 Oostergo plein </b><br />Schaaktafel / Chess table (2x)<br>t/o Oostergo 39<br>1274 JS Huizen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/huizen.png\" width=\"100%\"></a><br><br>52.295630, 5.273574<br><i>(est. 2022)</i>")
+
+		var tafel226 = L.marker([52.507854, 4.916126]).addTo(mymap)
+		.bindPopup("<b>#226 Restaurant 1456 </b><br />Schaaktafel / Chess table (1x)<br>Wijdewormerplein 3<br>1456 CB Wijdewormer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/wijdew.png\" width=\"100%\"></a><br><br>52.507854, 4.9161264<br><i>(est. Oct 2023)</i>")
+
+		var tafel227 = L.marker([53.175423, 6.061833]).addTo(mymap)
+		.bindPopup("<b>#227 De Kjellingen </b><br />Schaaktafel / Chess table (1x)<br>Het Leech 4<br>9261 VP Eastermar<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/easter.png\" width=\"100%\"></a><br><br>53.175423, 6.061833<br><i>(est. Sep 2023)</i>")
+
+		var tafel228 = L.marker([52.064537, 4.257930]).addTo(mymap)
+		.bindPopup("<b>#228 Abrikozenplein </b><br />Schaaktafel / Chess table (3x)<br>Abrikozenplein<br>2564 PH Den Haag<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/abrik.png\" width=\"100%\"></a><br><br>52.064537, 4.257930<br><i>(est. 2023)</i>")
+
+		var tafel229 = L.marker([53.457415, 5.772988]).addTo(mymap)
+		.bindPopup("<b>#229 Strandcamping Duinoord </b><br />Schaaktafel / Chess table (1x)<br>Jan van Eijckweg 2<br>9163 PB Nes<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ameland.png\" width=\"100%\"></a><br><br>53.457415, 5.772988<br><i>(est. Sep 2022)</i>")
+
+		var tafel230 = L.marker([53.191902, 6.565847]).addTo(mymap)
+		.bindPopup("<b>#230 De Wijert-Zuid </b><br />Schaaktafel / Chess table (1x)<br>nabij Helene Swarthlaan 22<br>9721 TS Groningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/swarth.png\" width=\"100%\"></a><br><br>53.191902, 6.565847<br><i>(est. unkonwn)</i>")
+
+		var tafel231 = L.marker([51.654463, 5.624868]).addTo(mymap)
+		.bindPopup("<b>#231 Land van Dico </b><br />Schaaktafel / Chess table (1x)<br>nabij Spiraal 2<br>5404 ND Uden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/uden.png\" width=\"100%\"></a><br><br>51.654463, 5.624868<br><i>(est. 2023)</i>")
+
+		var tafel232 = L.marker([51.570894, 5.055186]).addTo(mymap)
+		.bindPopup("<b>#232 Westerpark </b><br />Schaaktafel / Chess table (1x)<br>t/o Westerpark 108<br>5042 MJ Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/tilwestp.png\" width=\"100%\"></a><br><br>51.570894, 5.055186<br><i>(est. Nov 2022)</i>")
+
+		var tafel233 = L.marker([52.388854, 4.911172]).addTo(mymap)
+		.bindPopup("<b>#233 Jac. P. Thijsseplein </b><br />Schaaktafel / Chess table (1x)<br>t/o Jac. P. Thijsseplein 42<br>1031 TS Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/jacpthijs.png\" width=\"100%\"></a><br><br>52.388854, 4.911172<br><i>(est. Dec 2021)</i>")
+
+		var tafel234 = L.marker([52.349277, 4.830581]).addTo(mymap)
+		.bindPopup("<b>#234 Staalmanpark </b><br />Schaaktafel / Chess table (3x)<br>t/o Staalmanpark 12<br>1066 BR Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amstaal.png\" width=\"100%\"></a><br><br>52.349277, 4.830581<br><i>(est. Jan 2024)</i>")
+
+		var tafel235 = L.marker([52.364243, 4.644080]).addTo(mymap)
+		.bindPopup("<b>#235 Rudolf Steiner College </b><br />Schaaktafel / Chess table (1x)<br>Belgiëlaan 4<br>2034 AX Haarlem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/rustein.png\" width=\"100%\"></a><br><br>52.364243, 4.6440801<br><i>(est. 2024)</i>")
+
+		var tafel236 = L.marker([51.541394, 5.086717]).addTo(mymap)
+		.bindPopup("<b>#236 Buurthuis Broekhoven </b><br />Schaaktafel / Chess table (1x)<br>Matterhornhoek 20<br>5022 PK Tilburg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/broekho.png\" width=\"100%\"></a><br><br>51.541394, 5.086717<br><i>(est. 21 Nov 2023)</i>")
+
+		var tafel237 = L.marker([52.653896, 4.761431]).addTo(mymap)
+		.bindPopup("<b>#237 Arkplein </b><br />Schaaktafel / Chess table (1x)<br>Arkplein 78<br>1826 DL Alkmaar<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/alkark.png\" width=\"100%\"></a><br><br>52.653896, 4.761431<br><i>(est. 13 Jul 2023)</i>")
+
+		var tafel238 = L.marker([51.105498, 5.865854]).addTo(mymap)
+		.bindPopup("<b>#238 Ursulindeplein </b><br />Schaaktafel / Chess table (1x)<br>Ursulinenplein 6<br>6101 DN Echt<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/echt.png\" width=\"100%\"></a><br><br>51.105498, 5.865854<br><i>(est. May 2024)</i>")
+
+		var tafel239 = L.marker([52.802524, 5.694880]).addTo(mymap)
+		.bindPopup("<b>#239 MFA Het Klavier </b><br />Schaaktafel / Chess table (1x)<br>Sportweg 52a<br>8313 AR Rutten<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/mfarut.png\" width=\"100%\"></a><br><br>52.802524, 5.694880<br><i>(est. May 2021)</i>")
+
+		var tafel240 = L.marker([52.13917, 5.03770]).addTo(mymap)
+		.bindPopup("<b>#240 Schoolplein Wereldkidz Bolenstein </b><br />Schaaktafel / Chess table (1x)<br>Bolensteinseweg 12<br>3603 CP Maarssen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/maars24.png\" width=\"100%\"></a><br><br>52.13917, 5.03770<br><i>(est. 2024)</i>")
+
+		var tafel241 = L.marker([53.179678, 6.388558]).addTo(mymap)
+		.bindPopup("<b>#241 d'Olle Tuun </b><br />Schaaktafel / Chess table (1x)<br>t/o Hoofdstraat 117<br>9355 TC Midwolde<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/midwold.png\" width=\"100%\"></a><br><br>53.179678, 6.388558<br><i>(est. 2023)</i>")
+
+		var tafel242 = L.marker([51.637935, 4.864012]).addTo(mymap)
+		.bindPopup("<b>#242 SBO De Wissel </b><br />Schaaktafel / Chess table (1x)<br>Van Oldeneellaan 18<br>4902 ZC Oosterhout<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/wissel.png\" width=\"100%\"></a><br><br>51.637935, 4.864012<br><i>(est. 2024)</i>")
+
+		var tafel243 = L.marker([52.511373, 4.953908]).addTo(mymap)
+		.bindPopup("<b>#243 Burgemeester R. Kooimanpark </b><br />Schaaktafel / Chess table (2x)<br>Hoornselaan 311<br>1442 BX  Purmerend<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/purmpark.png\" width=\"100%\"></a><br><br>52.511373, 4.953908<br><i>(est. May 2024)</i>")
+
+		var tafel244 = L.marker([51.397280, 5.476008]).addTo(mymap)
+		.bindPopup("<b>#244 Speeltuin Kosterhof </b><br />Schaaktafel / Chess table (1x)<br>t/o Kosterhof 7<br>5582 HX Waalre (Aalst)<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/aalst.png\" width=\"100%\"></a><br><br>51.397280, 5.476008<br><i>(est. 2018)</i>")
+
+		var tafel245 = L.marker([52.215581, 6.874799]).addTo(mymap)
+		.bindPopup("<b>#245 Eversstraat </b><br />Schaaktafel / Chess table (1x)<br>t/o Eversstraat 30<br>7545 SZ Enschede<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/ensch.png\" width=\"100%\"></a><br><br>52.215581, 6.8747998<br><i>(est. 2024)</i>")
+
+		var tafel246 = L.marker([52.396841, 4.919221]).addTo(mymap)
+		.bindPopup("<b>#246 Noorderpark </b><br />Schaaktafel / Chess table (3x)<br>Wingerdweg 260-B<br>1032 AN Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/anoord.png\" width=\"100%\"></a><br><br>52.396841, 4.919221<br><i>(est. Jun 2024)</i>")
+
+		var tafel247 = L.marker([52.060448, 4.494244]).addTo(mymap)
+		.bindPopup("<b>#247 Gat in de Markt </b><br />Schaaktafel / Chess table (1x)<br>Markt 10A<br>2711 CZ Zoetermeer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/gatmarkt.png\" width=\"100%\"></a><br><br>52.060448, 4.494244<br><i>(est. Jun 2024)</i>")
+
+		var tafel248 = L.marker([52.157462, 4.531159]).addTo(mymap)
+		.bindPopup("<b>#248 De Houtkamp </b><br />Schaaktafel / Chess table (3x)<br>Van Diepeningenlaan 2<br>2352 KA Leiderdorp<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/leiddorp.png\" width=\"100%\"></a><br><br>52.157462, 4.531159<br><i>(est. Jan 2024)</i>")
+
+		var tafel249 = L.marker([51.977344, 4.238982]).addTo(mymap)
+		.bindPopup("<b>#249 Speelplek van Alkemadestraat </b><br />Schaaktafel / Chess table (2x)<br>t/o Van Alkemadestraat 35<br>2678 VH De Lier<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/delier.png\" width=\"100%\"></a><br><br>51.977344, 4.238982<br><i>(est. May 2024)</i>")
+
+		var tafel250 = L.marker([51.993824, 4.209790]).addTo(mymap)
+		.bindPopup("<b>#250 Speelplek Stokdijkkade </b><br />Schaaktafel / Chess table (2x)<br>Stokdijkkade 2<br>2671 GW Naaldwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/stokdijk.png\" width=\"100%\"></a><br><br>51.993824, 4.209790<br><i>(est. May 2024)</i>")
+
+		var tafel251 = L.marker([52.023978, 4.286755]).addTo(mymap)
+		.bindPopup("<b>#251 Speelplek Waterpark </b><br />Schaaktafel / Chess table (2x)<br>Waterpark 54-64<br>2548 RT Wateringen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/waterp.png\" width=\"100%\"></a><br><br>52.023978, 4.286755<br><i>(est. 11 Jul 2024)</i>")
+
+		var tafel252 = L.marker([52.021451, 4.173972]).addTo(mymap)
+		.bindPopup("<b>#252 Speelplek Kloosterlaan </b><br />Schaaktafel / Chess table (2x)<br>Kloosterlaan 31<br>2681 LD Monster<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/monste.png\" width=\"100%\"></a><br><br>52.021451, 4.173972<br><i>(est. 12 Jul 2024)</i>")
+
+		var tafel253 = L.marker([51.996967, 4.167778]).addTo(mymap)
+		.bindPopup("<b>#253 Speelplek Opaal/Eikenlaan  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>nabij Eikenlaan 50<br>2691 EE 's-Gravenzande<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/gravenz.png\" width=\"100%\"></a><br><br>51.996967, 4.167778<br><i>(est. 16 JUL 2024)</i>")
+
+		var tafel254 = L.marker([52.022067, 4.338579]).addTo(mymap)
+		.bindPopup("<b>#254 De Buitenkamer </b><br />Schaaktafel / Chess table (2x)<br>Parelmoervlinderlaan 90<br>2288 CW Rijswijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/rijsbuit.png\" width=\"100%\"></a><br><br>52.022067, 4.338579<br><i>(est. 17 Jul 2024)</i>")
+
+		var tafel255 = L.marker([52.354865, 4.663765]).addTo(mymap)
+		.bindPopup("<b>#255 Leonardo Da Vinciplein </b><br />Schaaktafel / Chess table (1x)<br>Leonardo Da Vinciplein 73<br>2037 RR Haarlem<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/davinci.png\" width=\"100%\"></a><br><br>52.354865, 4.663765<br><i>(est. 24 Jul 2024)</i>")
+
+		var tafel256 = L.marker([51.987131, 4.463005]).addTo(mymap)
+		.bindPopup("<b>#256 Gouden Griffelplantsoen </b><br />Schaaktafel / Chess table (1x)<br>nabij Gouden Griffelplantsoen 10<br>2652 GR Berkel en Rodenrijs<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/berkrod.png\" width=\"100%\"></a><br><br>51.987131, 4.463005<br><i>(est. Aug 2024)</i>")
+
+		var tafel257 = L.marker([51.982730, 5.647777]).addTo(mymap)
+		.bindPopup("<b>#257 Hooilandplein </b><br />Schaak-/damtafel / Chess/Checkers table (4x)<br>nabij Hooilandplein 87-70<br>6708 RT Wageningen<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hooiland.png\" width=\"100%\"></a><br><br>51.982730, 5.647777<br><i>(est. 31 Aug 2024)</i>")
+
+		var tafel258 = L.marker([52.509079, 4.947645]).addTo(mymap)
+		.bindPopup("<b>#258 Willem Eggertstraat </b><br />Schaak-/damtafel / Chess/Checkers table (2x)<br>Willem Eggertstraat 6<br>1441 CJ Purmerend<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/pur2024.png\" width=\"100%\"></a><br><br>52.509079, 4.947645<br><i>(est. 25 Oct 2024)</i>")
+
+		var tafel259 = L.marker([52.251525, 6.154657]).addTo(mymap)
+		.bindPopup("<b>#259 Grote Kerkhof </b><br />Schaaktafel / Chess table (2x)<br>Grote Kerkhof 24<br>7411 KV Deventer<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/dvtr24.png\" width=\"100%\"></a><br><br>52.251525, 6.154657<br><i>(est. 13 Nov 2024)</i>")
+		
+		var tafel260 = L.marker([52.036352, 5.168886]).addTo(mymap)
+		.bindPopup("<b>#260 Het Wed (plein) </b><br />Schaaktafel / Chess table (3x)<br>Het Wed 81<br>3995 DT Houten<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/htn24.png\" width=\"100%\"></a><br><br>52.036352, 5.168886<br><i>(est. 30 Nov 2024)</i>")
+
+		var tafel261 = L.marker([52.005107, 4.226061]).addTo(mymap)
+		.bindPopup("<b>#261 Speelplek Hertenlaan </b><br />Schaaktafel / Chess table (1x)<br>t.h.v. Valkehorst 71<br>2675 WD Honselersdijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/hons.png\" width=\"100%\"></a><br><br>52.005107, 4.226061<br><i>(est. Nov 2024)</i>")
+
+		var tafel262 = L.marker([52.012821, 4.254680]).addTo(mymap)
+		.bindPopup("<b>#262 Speelplek Kievit </b><br />Schaaktafel / Chess table (2x)<br>t.h.v. Kievit 6<br>2295 NV Kwintsheul<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/kwint.png\" width=\"100%\"></a><br><br>52.012821, 4.254680<br><i>(est. Nov 2024)</i>")
+
+		var tafel263 = L.marker([52.027821, 4.223171]).addTo(mymap)
+		.bindPopup("<b>#263 Speelplek Kreek </b><br />Schaaktafel / Chess table (1x)<br>t.h.v. Kreek 27<br>2685 VW Poeldijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/poel24.png\" width=\"100%\"></a><br><br>52.027821, 4.223171<br><i>(est. Nov 2024)</i>")
+
+		var tafel264 = L.marker([52.029557, 4.167636]).addTo(mymap)
+		.bindPopup("<b>#264 Speelplek De Wurft </b><br />Schaaktafel / Chess table (1x)<br>t.h.v. De Wurft 1<br>2684 XE Ter Heijde<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/terh24.png\" width=\"100%\"></a><br><br>52.029557, 4.167636<br><i>(est. Nov 2024)</i>")
+
+		var tafel265 = L.marker([51.981323, 4.179945]).addTo(mymap)
+		.bindPopup("<b>#265 Speelplek Lugtigheidstraat </b><br />Schaaktafel / Chess table (2x)<br>t.h.v. Lugtigheidstraat 7<br>2691 LS  Heenweg<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/heulw.png\" width=\"100%\"></a><br><br>51.981323, 4.179945<br><i>(est. Nov 2024)</i>")
+
+		var tafel266 = L.marker([51.956310, 4.213962]).addTo(mymap)
+		.bindPopup("<b>#266 Speelplek Van Beuningenstraat </b><br />Schaaktafel / Chess table (2x)<br>t.h.v. Van Beuningenstraat 19<br>2676 CX Maasdijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/maasd.png\" width=\"100%\"></a><br><br>51.956310, 4.213962<br><i>(est. Nov 2024)</i>")
+
+		var tafel267 = L.marker([51.995552, 4.219078]).addTo(mymap)
+		.bindPopup("<b>#267 Dreespark </b><br />Schaaktafel / Chess table (1x)<br>t.h.v. Groen van Prinstererstraat 10<br>2672 CA Naaldwijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/naald24.png\" width=\"100%\"></a><br><br>51.995552, 4.219078<br><i>(est. Nov 2024)</i>")
+
+		var tafel268 = L.marker([52.359950, 4.943482]).addTo(mymap)
+		.bindPopup("<b>#268 Sumatraplantsoen </b><br />Schaaktafel / Chess table (1x)<br>t.h.v. Sumatraplantsoen 155<br>1095 HZ Amsterdam<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/amssum.png\" width=\"100%\"></a><br><br>52.359950, 4.943482<br><i>(est. Jan 2024)</i>")
+
+		var tafel269 = L.marker([52.111245, 5.187107]).addTo(mymap)
+		.bindPopup("<b>#269 Speelplaats Henrica van Erpweg </b><br />Schaaktafel / Chess table (2x)<br>Henrica van Erpweg 3732<br>3732 BA De Bilt<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bilt24.png\" width=\"100%\"></a><br><br>52.111245, 5.187107<br><i>(est. 13 Dec 2024)</i>")
+
+		var tafel270 = L.marker([52.001845, 4.219805]).addTo(mymap)
+		.bindPopup("<b>#270 Royal Flora Holland </b><br />Schaaktafel / Chess table (3x)<br>t/o Dijkweg 125<br>2675 AC Honselersdijk<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/royalflora.png\" width=\"100%\"></a><br><br>52.001845, 4.219805<br><i>(est. Feb 2025)</i>")
+
+		var tafel271 = L.marker([52.092364, 5.113918]).addTo(mymap)
+		.bindPopup("<b>#271 Vlaamse Toren (Tivoli) </b><br />Schaaktafel / Chess table (1x)<br>Vredenburgpassage 74<br>3511 WB Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vlaamse.png\" width=\"100%\"></a><br><br>52.092364, 5.113918<br><i>(est. unknown)</i>")
+
+		var tafel272 = L.marker([51.441355, 4.926027]).addTo(mymap)
+		.bindPopup("<b>#272 Kloostertuin Baarle </b><br />Schaaktafel / Chess table (1x)<br>Pastoor de Katerstraat 7<br>5111 CM Baarle-Nassau / Baarle-Hertog<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/baarle.png\" width=\"100%\"></a><br><br>51.441355, 4.926027<br><i>(est. 23 Apr 2025)</i>")
+
+		var tafel273 = L.marker([52.460081, 4.639804]).addTo(mymap)
+		.bindPopup("<b>#273 Park Velserbroek </b><br />Schaaktafel / Chess table (2x)<br>nabij Velserbeek 3<br>1981 LA Velsen-Zuid<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vels1.png\" width=\"100%\"></a><br><br>52.460081, 4.639804]<br><i>(est. Jan 2025)</i>")
+
+		var tafel274 = L.marker([52.449395, 4.594601]).addTo(mymap)
+		.bindPopup("<b>#274 Seniorencentrum Zeewijk </b><br />Schaaktafel / Chess table (3x)<br>Zeewijkplein 260<br>1974 PS IJmuiden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vels2.jpeg\" width=\"100%\"></a><br><br>52.449395, 4.594601<br><i>(est. Jan 2025)</i>")
+
+		var tafel275 = L.marker([52.454092, 4.592703]).addTo(mymap)
+		.bindPopup("<b>#275 Park aan de Raafstraat </b><br />Schaaktafel / Chess table (3x)<br>achter Dokweg 43-45<br>1976 CA IJmuiden<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/vels3.jpeg\" width=\"100%\"></a><br><br>52.454092, 4.592703<br><i>(est. Jan 2025)</i>")
+
+		var tafel276 = L.marker([52.302109, 6.758005]).addTo(mymap)
+		.bindPopup("<b>#276 Koetshuis  <img src=\"https://www.eerbeekseschaakclub.nl/stimg/rolstoel.gif\" height=\"14\"></b><br />Schaaktafel / Chess table (3x)<br>Marktstraat 21A<br>7622 CP Borne<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/borne3.png\" width=\"100%\"></a><br><br>52.302109, 6.758005<br><i>(est. 07 May 2025)</i>")
+
+		var tafel277 = L.marker([52.083263, 5.092786]).addTo(mymap)
+		.bindPopup("<b>#277 De Bierkantine </b><br />Schaaktafel / Chess table (3x)<br>Ravellaan 96<br>3533 JR Utrecht<br><br><img src=\"https://www.eerbeekseschaakclub.nl/stimg/bierk.png\" width=\"100%\"></a><br><br>52.083263, 5.092786<br><i>(est. 08 May 2025)</i>")
+

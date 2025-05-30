@@ -1,0 +1,6 @@
+.map-wrapper {
+  width: 100%;      /* alternatieve optie */
+  aspect-ratio: 1;  /* houdt vierkant verhouding */
+  max-width: 100vw; /* voorkom horizontaal scrollen */
+  height: auto;
+}

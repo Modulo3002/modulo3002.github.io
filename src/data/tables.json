@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "OBS Pantarijn/Shri Krishna School",
+    "location": "Utrecht",
+    "address": "Van Lawick van Pabstlaan 1, 3453 PH Utrecht",
+    "lat": 52.081975,
+    "lng": 5.017854,
+    "tables": 2,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel1.jpg",
+    "established": "2018-02-15"
+  },
+  {
+    "id": 2,
+    "name": "Maximapark",
+    "location": "Utrecht",
+    "address": "Uilenboslaan 1, 3451 GB Utrecht (near entrance Japanese Garden)",
+    "lat": 52.09559,
+    "lng": 5.02326,
+    "tables": 7,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel2.jpg",
+    "established": "2018-03-10"
+  },
+  {
+    "id": 3,
+    "name": "Willemskade",
+    "location": "Rotterdam",
+    "address": "Willemskade 19, 3016 DM Rotterdam (near Erasmus Bridge)",
+    "lat": 51.90833,
+    "lng": 4.48152,
+    "tables": 1,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel3.jpg",
+    "established": null
+  },
+  {
+    "id": 4,
+    "name": "Havenstraat",
+    "location": "Bunschoten-Spakenburg",
+    "address": "Havenstraat 43, 3752 TH Bunschoten-Spakenburg",
+    "lat": 52.254941,
+    "lng": 5.379141,
+    "tables": 2,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/bunschot.png",
+    "established": "2023-03-06"
+  },
+  {
+    "id": 5,
+    "name": "Vlindertuin",
+    "location": "Apeldoorn",
+    "address": "Ravelijn 2, 7325 NW Apeldoorn",
+    "lat": 52.21424,
+    "lng": 6.00347,
+    "tables": 1,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel5.png",
+    "established": "2018-06-07"
+  },
+  {
+    "id": 6,
+    "name": "Willemshof",
+    "location": "Schiermonnikoog",
+    "address": "Nieuwestreek 7, 9166 LX Schiermonnikoog",
+    "lat": 53.47855,
+    "lng": 6.16181,
+    "tables": 2,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel6.jpg",
+    "established": "2018-10-13"
+  },
+  {
+    "id": 7,
+    "name": "Yn de Mande school",
+    "location": "Schiermonnikoog",
+    "address": "F.H. Gasaustraat 22, 9166 RB Schiermonnikoog",
+    "lat": 53.47749,
+    "lng": 6.16438,
+    "tables": 2,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schierschool.png",
+    "established": "2018-10-13"
+  },
+  {
+    "id": 8,
+    "name": "Science Park - Heidelberglaan",
+    "location": "Utrecht",
+    "address": "Heidelberglaan 6, 3584 CS Utrecht",
+    "lat": 52.085096,
+    "lng": 5.174268,
+    "tables": 4,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/science.png",
+    "established": "2022"
+  },
+  {
+    "id": 9,
+    "name": "Steve Bikoplein",
+    "location": "Amsterdam",
+    "address": "Steve Bikoplein, 1092 GM Amsterdam",
+    "lat": 52.35529,
+    "lng": 4.92402,
+    "tables": 3,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel9.jpg",
+    "established": "2019-01-01"
+  },
+  {
+    "id": 10,
+    "name": "Gijsbrecht van Aemstelpark",
+    "location": "Amsterdam",
+    "address": "Willem van Weldammelaan, 1082 KW Amsterdam",
+    "lat": 52.3287,
+    "lng": 4.8754,
+    "tables": 2,
+    "image": "https://www.eerbeekseschaakclub.nl/stimg/schaaktafel10.jpg",
+    "established": "2018-12-01"
+  }
+]
