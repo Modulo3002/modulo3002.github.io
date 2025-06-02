@@ -11,7 +11,7 @@ export default function TableListDropdown({ tables, total }) {
     <div className="table-list-dropdown">
       <button className="btn-toggle-list" onClick={toggleList}>
         {tables.length === total
-          ? 'Toon alle tafels'
+          ? 'Toon lijst met alle tafels in Nederland'
           : `Toon gevonden tafels (${tables.length})`}
       </button>
 

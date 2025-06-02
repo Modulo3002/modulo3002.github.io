@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, ZoomControl } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import tables from '../data/tables.json';
 import L from 'leaflet';
@@ -55,14 +55,15 @@ export default function MapPage() {
   };
 
   return (
-    <><div className='title'>
-      <h1>Schaaktafels Nederland</h1>
-      <p>Vind openbare schaaktafels in heel het land.</p>
-      </div>
-      <SearchBar search={search} setSearch={setSearch} onSearch={handleSearch} onReset={handleReset}/>
+    <>
 
       <div className="map-wrapper">
-        <MapContainer style={{ height: '100%', width: '100%' }} center={[52.1, 5.3]} zoom={7}>
+        <div className="map-search-overlay">
+        <SearchBar search={search} setSearch={setSearch} onSearch={handleSearch} onReset={handleReset} />
+        </div>
+        <MapContainer style={{ height: '100%', width: '100%' }} center={[52.1, 5.3]} zoom={7} zoomControl={false}>
+          <ZoomControl position="bottomleft" />
+
           <TileLayer
             attribution="&copy; OpenStreetMap contributors"
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -92,7 +93,7 @@ export default function MapPage() {
             </Marker>
           ))}
         </MapContainer>
-        
+
 
         <TableListDropdown tables={filteredTables} total={tables.length} />
 

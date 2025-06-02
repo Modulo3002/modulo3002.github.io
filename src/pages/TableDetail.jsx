@@ -26,7 +26,7 @@ export default function TableDetail() {
 
   return (
     <div className="table-detail">
-      <h1>{table.name}</h1>
+      <h1 className="title">{table.name}</h1>
 
       <MapContainer
         center={[table.lat, table.lng]}
@@ -57,7 +57,7 @@ export default function TableDetail() {
       </MapContainer>
 
       
-        <h4><strong>{table.name}</strong></h4><br />
+        <strong>{table.name}</strong><br />
         <b>Aantal schaaktafels:</b> {table.tables} <br />
         <b>Adres:</b><br />
         {table.address}<br />

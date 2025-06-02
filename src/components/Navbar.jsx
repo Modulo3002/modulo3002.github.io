@@ -41,10 +41,13 @@ export default function Navbar() {
       <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/MapOverzicht">Map</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/about">Over Ons</Link></li>
       </ul>
 
-      <div className="navbar-brand">SchaaktafelsNL</div>
+      <div className="nav-text">
+        <div className="navbar-brand"><h2>Schaaktafels.nl</h2></div>
+        <p className='nav-subtext'>Vind openbare schaaktafels in heel het land</p>
+      </div>
     </nav>
   );
 }

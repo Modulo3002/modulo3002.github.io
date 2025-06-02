@@ -1,10 +1,40 @@
-.title{
-  margin: 0rem 1rem 0rem 1rem;
-}
-
 .map-wrapper {
   width: 100%;      /* alternatieve optie */
-  aspect-ratio: 1;  /* houdt vierkant verhouding */
+  aspect-ratio: 0.8;  /* houdt vierkant verhouding */
   max-width: 100vw; /* voorkom horizontaal scrollen */
   height: auto;
+}
+
+.map-search-overlay {
+  position: absolute;
+  /* top: 1rem;
+  left: 50%; */
+  /* transform: translateX(-50%); */
+  z-index: 1000;
+  /* background: rgba(255, 255, 255, 0.9); */
+  /* padding: 0.5rem 1rem; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* Maak input en button netjes naast elkaar */
+.map-search-overlay input,
+.map-search-overlay button {
+  /* height: 2.5rem; */
+  /* font-size: 1rem; */
+}
+
+.map-search-overlay {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 1000;
+
+  /* display: flex; */
+  gap: 0.5rem;
+  /* background: rgba(255, 255, 255, 0.95); */
+  padding: 0.5rem 1rem;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
 }

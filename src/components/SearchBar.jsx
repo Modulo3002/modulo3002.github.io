@@ -1,4 +1,5 @@
 import "./SearchBar.css";
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function SearchBar({ search, setSearch, onSearch, onReset }) {
   const handleKeyDown = (e) => {
@@ -18,8 +19,8 @@ export default function SearchBar({ search, setSearch, onSearch, onReset }) {
         onKeyDown={handleKeyDown}
 
       />
-            <button onClick={onSearch}>Zoeken</button>
-            <button className="btn-reset" onClick={onReset}>Reset</button>
+            <button onClick={onSearch}><SearchIcon/></button>
+            <button className="btn-reset" onClick={onReset}>X</button>
 
 
     </div>
