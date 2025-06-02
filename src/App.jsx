@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<MapPage />} />
           <Route path="/tafel/:id" element={<TableDetail />} />
           <Route path="/MapOverzicht" element={<MapPage />} />
         </Routes>

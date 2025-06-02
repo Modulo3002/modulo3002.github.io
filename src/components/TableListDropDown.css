@@ -1,0 +1,61 @@
+.btn-toggle-list {
+    margin: 1rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.table-list {
+    /* Remove bullets */
+    list-style-type: none;
+    
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+
+/* Searchresults in cards */
+.table-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.table-card:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.table-card h3 {
+    margin: 0 0 0.5rem;
+    color: #1c1c1c;
+    font-size: 1.2rem;
+}
+
+.table-card p {
+    margin: 0.2rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.btn-more-info {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn-more-info:hover {
+    background-color: #004d40;
+}
