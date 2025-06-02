@@ -1,36 +1,10 @@
-// import { useParams } from "react-router-dom";
-// import tables from "../data/tables.json";
-
-// export default function TableDetail() {
-//   const { id } = useParams();
-//   const table = tables.find((t) => t.id.toString() === id);
-
-//   if (!table) {
-//     return <p>Tafel niet gevonden.</p>;
-//   }
-
-//   return (
-//     <div>
-//       <h1>{table.name}</h1>
-//       <p>{table.description}</p>
-//       <a
-//         href={`https://www.google.com/maps/dir/?api=1&destination=${table.lat},${table.lng}`}
-//         target="_blank"
-//         rel="noopener noreferrer"
-//       >
-//         Navigeer met Google Maps
-//       </a>
-//     </div>
-//   );
-// }
-
-
 import { useParams } from "react-router-dom";
 import tables from "../data/tables.json";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-// import "./TableDetail.css"; // optioneel, voor styling
+import "./TableDetail.css";
+import GoogleMapsIcon from '../assets/icons8-google-maps (1).svg'
 
 // Fix Leaflet marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -64,11 +38,31 @@ export default function TableDetail() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={[table.lat, table.lng]}>
-          <Popup>{table.name}</Popup>
+          <Popup>
+            <h4><strong>{table.name}</strong></h4>
+            <b>Aantal schaaktafels:</b> {table.tables} <br />
+            <b>Adres:</b><br />
+            {table.address}<br />
+            {table.postal_code}
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${table.lat},${table.lng}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Navigeer met Google Maps
+            </a>
+          </Popup>
+
         </Marker>
       </MapContainer>
 
-      <p><strong>Beschrijving:</strong> {table.description}</p>
+      
+        <h4><strong>{table.name}</strong></h4><br />
+        <b>Aantal schaaktafels:</b> {table.tables} <br />
+        <b>Adres:</b><br />
+        {table.address}<br />
+        {table.postal_code}
+        
 
       <a
         href={googleMapsUrl}
@@ -76,11 +70,11 @@ export default function TableDetail() {
         rel="noopener noreferrer"
         className="navigate-button"
       >
-        Navigeer met Google Maps
+        Navigeer met Google Maps <img src={GoogleMapsIcon}/>
       </a>
 
       {table.image && (
-        <img
+        <img className="table-img"
           src={table.image}
           alt={table.name}
           style={{ width: "100%", marginTop: "1rem", borderRadius: "0.5rem" }}

@@ -1,0 +1,28 @@
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+}
+
+.about-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-page h2 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-page ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.about-page li {
+  margin-bottom: 0.5rem;
+}

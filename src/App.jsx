@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//Pages
-import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 import TableDetail from "./pages/TableDetail";
 import MapPage from "./pages/MapPage";
-//Components
-import Navbar from "./components/Navbar";
+import About from "./pages/About";
+
 
 function App() {
   return (
@@ -16,6 +15,8 @@ function App() {
           <Route path="/" element={<MapPage />} />
           <Route path="/tafel/:id" element={<TableDetail />} />
           <Route path="/MapOverzicht" element={<MapPage />} />
+          <Route path="/about" element={<About/>} />
+
         </Routes>
       </BrowserRouter>
     </>
