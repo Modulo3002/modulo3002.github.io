@@ -7,7 +7,7 @@ import SearchBar from '../components/SearchBar';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import TableListDropdown from '../components/TableListDropdown';
-
+import UnderConstrutction from '../components/UnderConstruction';
 
 // Fix marker icon issue in Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
@@ -33,8 +33,11 @@ function FitBounds({ locations }) {
 export default function MapPage() {
   const [search, setSearch] = useState('');
   const [filteredTables, setFilteredTables] = useState(tables);
+  const [hasSearched, setHasSearched] = useState(false);
 
   const handleSearch = () => {
+    //ifstatement zorgt voor niet kunnen zoeken bij geen zoekterm
+    if (search.trim() === '' ) return;
     const filtered = tables.filter((table) => {
       const location = table.location.toLowerCase();
       const address = table.address.toLowerCase();
@@ -47,19 +50,22 @@ export default function MapPage() {
       );
     });
     setFilteredTables(filtered);
+    setHasSearched(true);
   };
 
   const handleReset = () => {
     setSearch('');
     setFilteredTables(tables);
+    setHasSearched(false); 
+
   };
 
   return (
     <>
-
+      <UnderConstrutction/>
       <div className="map-wrapper">
         <div className="map-search-overlay">
-        <SearchBar search={search} setSearch={setSearch} onSearch={handleSearch} onReset={handleReset} />
+        <SearchBar search={search} setSearch={setSearch} onSearch={handleSearch} onReset={handleReset} hasSearched={hasSearched}/>
         </div>
         <MapContainer style={{ height: '100%', width: '100%' }} center={[52.1, 5.3]} zoom={7} zoomControl={false}>
           <ZoomControl position="bottomleft" />

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.css';  // jouw CSS bestand
@@ -7,11 +7,13 @@ import './Navbar.css';  // jouw CSS bestand
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const navRef = useRef(null);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  //sluiten menu bij ernaast klikken
   useEffect(() => {
     function handleClickOutside(event) {
       if (navRef.current && !navRef.current.contains(event.target)) {
@@ -29,6 +31,11 @@ export default function Navbar() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [menuOpen]);
+
+  //Sluit menu automatisch bij routeverandering
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location]);
 
   return (
     <nav className="navbar" ref={navRef}>

@@ -1,7 +1,29 @@
 .search-container {
   display: flex;
-  /* gap: 0.5rem; */
-  margin: 1rem;
+  width: 100%;
+  /* max-width: 500px; */
+  margin: 1rem auto;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  /* font-size: 1rem; */
+  border: 1px solid #ffffff;
+  border-right: none;
+  border-radius: 999px 0 0 999px;
+  outline: none;
+}
+
+.search-container button {
+  /* background-color: #0077cc;
+  border: 1px solid #0077cc; */
+  border-radius: 0 999px 999px 0;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 input {
@@ -37,3 +59,4 @@ button:hover {
   background-color: #6d1111;
 ;
 }
+
