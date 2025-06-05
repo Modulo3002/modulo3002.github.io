@@ -36,13 +36,16 @@ export default function MapPage() {
   const [hasSearched, setHasSearched] = useState(false);
 
   const handleSearch = () => {
+    //const die ook filtert op spatie etc a
+    const searchTerm = search.trim().toLowerCase().replace(/\s+/g, '');
+
     //ifstatement zorgt voor niet kunnen zoeken bij geen zoekterm
-    if (search.trim() === '' ) return;
+    if (searchTerm.trim() === '' ) return;
     const filtered = tables.filter((table) => {
-      const location = table.location.toLowerCase();
-      const address = table.address.toLowerCase();
-      const name = table.name.toLowerCase();
-      const searchTerm = search.toLowerCase();
+      const location = table.location.toLowerCase().replace(/\s+/g, '');
+      const address = table.address.toLowerCase().replace(/\s+/g, '');
+      const name = table.name.toLowerCase().replace(/\s+/g, '');
+      const searchTerm = search.toLowerCase().replace(/\s+/g, '');
       return (
         location.includes(searchTerm) ||
         address.includes(searchTerm) ||
@@ -102,15 +105,6 @@ export default function MapPage() {
 
 
         <TableListDropdown tables={filteredTables} total={tables.length} />
-
-        {/* <ul>
-          {filteredTables.map((table) => (
-            <li key={table.id}>
-              <strong>{table.name}</strong> – {table.location} – {table.address}
-            </li>
-          ))}
-        </ul> */}
-
       </div>
     </>
   );
