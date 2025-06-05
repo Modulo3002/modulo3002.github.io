@@ -20,7 +20,7 @@ export default function UnderConstructionPopup() {
         <p>
           We werken op dit moment actief aan deze webapplicatie. <br />
           Voor de beste ervaring raden we aan om de mobiele versie in <strong>Google Chrome</strong> te gebruiken.
-          De applicatie is nog aangepast voor het gebruik op andere apparaten.
+          De applicatie is nog niet aangepast voor het gebruik op andere apparaten.
         </p>
         <button onClick={() => setVisible(false)}>Sluiten</button>
       </div>

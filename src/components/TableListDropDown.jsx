@@ -9,10 +9,11 @@ export default function TableListDropdown({ tables, total }) {
 
   return (
     <div className="table-list-dropdown">
+      {/* tables.length is +1 because current JSON starts with id1 */}
       <button className="btn-toggle-list" onClick={toggleList}>
         {tables.length === total
           ? 'Toon lijst met alle tafels in Nederland'
-          : `Toon gevonden tafels (${tables.length})`}
+          : `Toon gevonden tafels (${tables.length + 1})`}
       </button>
 
       {showList && (
