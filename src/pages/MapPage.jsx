@@ -36,20 +36,19 @@ export default function MapPage() {
   const [hasSearched, setHasSearched] = useState(false);
 
   const handleSearch = () => {
-    //const die ook filtert op spatie etc a
     const searchTerm = search.trim().toLowerCase().replace(/\s+/g, '');
 
-    //ifstatement zorgt voor niet kunnen zoeken bij geen zoekterm
     if (searchTerm.trim() === '' ) return;
     const filtered = tables.filter((table) => {
       const location = table.location.toLowerCase().replace(/\s+/g, '');
       const address = table.address.toLowerCase().replace(/\s+/g, '');
       const name = table.name.toLowerCase().replace(/\s+/g, '');
-      const searchTerm = search.toLowerCase().replace(/\s+/g, '');
+      // Ensure the search term used for filtering is the same one processed with .replace(/\s+/g, '')
+      const processedSearchTerm = search.toLowerCase().replace(/\s+/g, ''); 
       return (
-        location.includes(searchTerm) ||
-        address.includes(searchTerm) ||
-        name.includes(searchTerm)
+        location.includes(processedSearchTerm) ||
+        address.includes(processedSearchTerm) ||
+        name.includes(processedSearchTerm)
       );
     });
     setFilteredTables(filtered);
@@ -60,7 +59,6 @@ export default function MapPage() {
     setSearch('');
     setFilteredTables(tables);
     setHasSearched(false); 
-
   };
 
   return (
@@ -74,7 +72,7 @@ export default function MapPage() {
           <ZoomControl position="bottomleft" />
 
           <TileLayer
-            attribution="&copy; OpenStreetMap contributors"
+            attribution="© OpenStreetMap contributors"
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
@@ -87,10 +85,11 @@ export default function MapPage() {
                 <b>Aantal schaaktafels:</b> {table.tables} <br />
                 <b>Adres:</b><br />
                 {table.address}<br />
-                {table.postal_code}
+                {table.postal_code} {/* Ensure postal_code exists in your data */}
                 <br />
                 <Link to={`/tafel/${table.id}`}>Meer info</Link>
                 <br />
+                {/* Corrected Google Maps URL */}
                 <a
                   href={`https://www.google.com/maps/dir/?api=1&destination=${table.lat},${table.lng}`}
                   target="_blank"
@@ -103,10 +102,12 @@ export default function MapPage() {
           ))}
         </MapContainer>
 
-
-{hasSearched && filteredTables.length > 0 && (
-  <TableListDropdown tables={filteredTables} total={tables.length} />
-)}      </div>
+        {hasSearched && filteredTables.length > 0 && (
+          <div className="tablelist-overlay">
+            <TableListDropdown tables={filteredTables} total={tables.length} />
+          </div>
+        )}
+      </div> {/* Closing tag for map-wrapper */}
     </>
   );
 }

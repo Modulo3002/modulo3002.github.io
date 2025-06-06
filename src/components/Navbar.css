@@ -12,6 +12,7 @@
   text-align: right;
   justify-content: space-between;
   z-index: 1000; /* boven content */
+  height: 88px;
 }
 
 /* Omlijning Schaaktafels.nl text */

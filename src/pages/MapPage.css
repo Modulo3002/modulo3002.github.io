@@ -1,12 +1,14 @@
 .map-wrapper {
   width: 100%;      /* alternatieve optie */
-  aspect-ratio: 0.8;  /* houdt vierkant verhouding */
+  /* aspect-ratio: 0.8;  houdt vierkant verhouding */
   max-width: 100vw; /* voorkom horizontaal scrollen */
-  height: auto;
+  /* height: auto; */
+  height: calc(100vh - 88px); /* 88px is for the height of the navbar*/
+  position: relative;
 }
 
 .map-search-overlay {
-  position: absolute;
+  /* position: absolute; */
   /* top: 1rem;
   left: 50%; */
   /* transform: translateX(-50%); */
@@ -17,6 +19,13 @@
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
 }
 
+
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
 /* Maak input en button netjes naast elkaar */
 .map-search-overlay input,
 .map-search-overlay button {
@@ -26,15 +35,33 @@
 
 .map-search-overlay {
   position: absolute;
-  top: 5rem;
+  top: 1rem;
   left: 1rem;
   right: 1rem;
   z-index: 999;
-
   /* display: flex; */
   gap: 0.5rem;
   /* background: rgba(255, 255, 255, 0.95); */
   padding: 0.5rem 1rem;
   /* border-radius: 8px; */
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.tablelist-overlay {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1002; /* Zorg dat deze boven Leaflet-kaart komt */
+  display: flex;
+  justify-content: center;
+  width: max-content;
+}
+
+.tablelist-overlay button {
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  /* font-weight: bold; */
+  border: none;
+  cursor: pointer;
 }
