@@ -1,10 +1,12 @@
 .map-wrapper {
-  width: 100%;      /* alternatieve optie */
+  /* width: 100%;      alternatieve optie */
   /* aspect-ratio: 0.8;  houdt vierkant verhouding */
   max-width: 100vw; /* voorkom horizontaal scrollen */
   /* height: auto; */
   height: calc(100vh - 88px); /* 88px is for the height of the navbar*/
   position: relative;
+    box-sizing: border-box;
+  overflow: hidden;
 }
 
 .map-search-overlay {
@@ -64,4 +66,16 @@
   /* font-weight: bold; */
   border: none;
   cursor: pointer;
+}
+
+.leaflet-control-zoom {
+  bottom: 5rem;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.leaflet-bottom.leaflet-right {
+  bottom: 5rem;
+  bottom: 10px;
+  right: 10px;
 }

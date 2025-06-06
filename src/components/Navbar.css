@@ -32,12 +32,6 @@
 
 }
 
-/* Voeg dit toe: maak navbar relatief, zodat het menu zich hierop positioneert */
-.navbar {
-  position: sticky;
-  top: 0;
-  position: relative; /* extra position relative */
-}
 
 /* Dropdown menu stijl */
 .navbar-menu {

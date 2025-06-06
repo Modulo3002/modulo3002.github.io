@@ -10,7 +10,8 @@ export default function TableListDropdown({ tables, total }) {
   return (
     <div className="table-list-dropdown">
       <button className="btn-toggle-list" onClick={toggleList}>
-        {tables.length === total
+        {showList ? 'Sluit lijst met gevonden tafels'
+        :tables.length === total
           ? 'Toon lijst met alle tafels in Nederland'
           : `Toon lijst met gevonden tafels (${tables.length})`}
       </button>
@@ -25,13 +26,13 @@ export default function TableListDropdown({ tables, total }) {
                 <p>{table.location}</p>
                 <p>{table.address}</p>
                 <Link to={`/tafel/${table.id}`} className="btn-more-info">Meer info</Link>
-            </div>
+              </div>
             </li>
           ))}
         </ul>
-        
+
       )}
-      
+
     </div>
   );
 }

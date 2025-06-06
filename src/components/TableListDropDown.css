@@ -13,6 +13,21 @@
     padding-left: 1.2rem;
 }
 
+.table-list{
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 73vh;          /* limiet aan hoogte */
+  width: 90vw;               /* past goed op mobiel */
+  overflow-y: auto;          /* maakt verticaal scrollen mogelijk */
+  overflow-x: hidden;        /* voorkomt horizontaal scrollen */
+  /* background: rgb(85, 82, 82); */
+  border-radius: 12px;
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  z-index: 1003;
+  /* padding: 1rem; */
+}
 
 /* Searchresults in cards */
 .table-card {
