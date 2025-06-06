@@ -12,7 +12,7 @@ export default function TableListDropdown({ tables, total }) {
       <button className="btn-toggle-list" onClick={toggleList}>
         {tables.length === total
           ? 'Toon lijst met alle tafels in Nederland'
-          : `Toon gevonden tafels (${tables.length})`}
+          : `Toon lijst met gevonden tafels (${tables.length})`}
       </button>
 
       {showList && (

@@ -104,8 +104,9 @@ export default function MapPage() {
         </MapContainer>
 
 
-        <TableListDropdown tables={filteredTables} total={tables.length} />
-      </div>
+{hasSearched && filteredTables.length > 0 && (
+  <TableListDropdown tables={filteredTables} total={tables.length} />
+)}      </div>
     </>
   );
 }
