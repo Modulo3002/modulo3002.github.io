@@ -47,8 +47,8 @@ export default function Navbar() {
       {/* Menu */}
       <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/MapOverzicht">Map</Link></li>
-        <li><Link to="/about">Over Ons</Link></li>
+        <li><Link to="/lijstoverzicht">Lijst Overzicht</Link></li>
+        <li><Link to="/over">Over Ons</Link></li>
       </ul>
 
       <div className="nav-text">

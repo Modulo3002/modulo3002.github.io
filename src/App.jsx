@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import TableDetail from "./pages/TableDetail";
 import MapPage from "./pages/MapPage";
 import About from "./pages/About";
+import ListOverview from "./pages/ListOverview"
 
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<MapPage />} />
           <Route path="/tafel/:id" element={<TableDetail />} />
-          <Route path="/MapOverzicht" element={<MapPage />} />
-          <Route path="/about" element={<About/>} />
+          <Route path="/lijstoverzicht" element={<ListOverview />} />
+          <Route path="/over" element={<About/>} />
 
         </Routes>
       </BrowserRouter>
