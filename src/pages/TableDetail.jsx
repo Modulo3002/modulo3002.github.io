@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import tables from "../data/tables.json";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, ZoomControl } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import "./TableDetail.css";
@@ -32,7 +32,9 @@ export default function TableDetail() {
         center={[table.lat, table.lng]}
         zoom={16}
         style={{ height: "300px", width: "100%", marginBottom: "1rem" }}
+        zoomControl={false}
       >
+        <ZoomControl position="bottomleft" />
         <TileLayer
           attribution='&copy; OpenStreetMap contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
